@@ -309,6 +309,25 @@
     .floating-vid { width: 70px !important; height: 70px !important; }
 }
 </style>
+<script>
+(function() {
+    var meta = document.querySelector('meta[name="viewport"]');
+    function setViewport() {
+        if (window.innerHeight < window.innerWidth) {
+            // Xoay ngang → chế độ desktop
+            meta.setAttribute('content', 'width=1024');
+        } else {
+            // Xoay dọc → responsive bình thường
+            meta.setAttribute('content', 'width=device-width, initial-scale=1.0');
+        }
+    }
+    setViewport();
+    window.addEventListener('orientationchange', function() {
+        setTimeout(setViewport, 100);
+    });
+    window.addEventListener('resize', setViewport);
+})();
+</script>
 </head>
 <body>
     <div class="liquid-bg"><div class="blob blob-1"></div><div class="blob blob-2"></div><div class="blob blob-3"></div></div>
