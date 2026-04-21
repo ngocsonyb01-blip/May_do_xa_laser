@@ -222,7 +222,43 @@
         height: 32px !important;
         color: var(--accent-primary);
     }
+    /* TỐI ƯU CHO ĐIỆN THOẠI */
+@media (max-width: 768px) {
+    /* Chuyển các bố cục chia đôi thành 1 cột để không bị co */
+    .content-split, 
+    [style*="display: grid"] {
+        grid-template-columns: 1fr !important;
+        gap: 15px !important;
+    }
+
+    /* Thu nhỏ tiêu đề và chữ cho vừa màn hình nhỏ */
+    .slide-title {
+        font-size: 22px !important;
+    }
+
+    .card-body {
+        padding: 15px !important;
+        overflow-y: auto !important; /* Cho phép cuộn nếu nội dung dài */
+    }
+
+    /* Chỉnh các thẻ Action Card (JIM/Vector) to ra dễ bấm bằng tay */
+    .td-action-card, .jim-action-card {
+        padding: 15px !important;
+    }
+
+    /* Đảm bảo ảnh phóng to không bị tràn */
+    #expanded-jim-img, #tacdung-img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    /* Ẩn bớt các khối thừa hoặc thu nhỏ icon */
+    i {
+        transform: scale(0.8);
+    }
+}
 </style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 </head>
 <body>
     <div class="liquid-bg"><div class="blob blob-1"></div><div class="blob blob-2"></div><div class="blob blob-3"></div></div>
