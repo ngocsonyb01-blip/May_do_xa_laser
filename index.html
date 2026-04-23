@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-    <title>Bài giảng: Máy Đo Xa Laser & Camera JIM LR</title>
+    <title>Bài giảng: Máy Đo Xa Laser</title>
     <script src="js/tailwind.js"></script>
     <script src="js/lucide.js"></script>
     <script src="js/confetti.js"></script>
@@ -342,17 +342,17 @@
             <div class="menu-item" data-slide="8" onclick="gotoSlide(8)">1. Tác dụng</div>
             <div class="menu-item" data-slide="9" onclick="gotoSlide(9)">2. Tính năng</div>
             <div class="menu-item" data-slide="10" onclick="gotoSlide(10)">3. Đồng bộ</div>
-            <div class="menu-item" data-slide="11" onclick="gotoSlide(11)">4. Cấu tạo</div>
-            <div class="menu-item" data-slide="13" onclick="gotoSlide(13)">5. Sử dụng</div>
-            <div class="menu-item" data-slide="19" onclick="gotoSlide(19)">6. Bảo quản, giữ gìn</div>
+            <div class="menu-item" data-slide="11" onclick="gotoSlide(11)">B. Cấu tạo</div>
+            <div class="menu-item" data-slide="13" onclick="gotoSlide(13)">C. Sử dụng</div>
+            <div class="menu-item" data-slide="19" onclick="gotoSlide(19)">D. Bảo quản, giữ gìn</div>
             
             <div class="menu-header">II: CAMERA JIM LR</div>
             <div class="menu-item" data-slide="21" onclick="gotoSlide(21)">1. Tác dụng</div>
             <div class="menu-item" data-slide="22" onclick="gotoSlide(22)">2. Tính năng</div>
             <div class="menu-item" data-slide="23" onclick="gotoSlide(23)">3. Đồng bộ</div>
-            <div class="menu-item" data-slide="24" onclick="gotoSlide(24)">4. Cấu tạo</div>
-            <div class="menu-item" data-slide="26" onclick="gotoSlide(26)">5. Sử dụng</div>
-            <div class="menu-item" data-slide="30" onclick="gotoSlide(30)">6. Bảo quản, giữ gìn</div>
+            <div class="menu-item" data-slide="24" onclick="gotoSlide(24)">B. Cấu tạo</div>
+            <div class="menu-item" data-slide="26" onclick="gotoSlide(26)">C. Sử dụng</div>
+            <div class="menu-item" data-slide="30" onclick="gotoSlide(30)">D. Bảo quản, giữ gìn</div>
             
             <div class="menu-header">III: TỔNG KẾT</div>
             <div class="menu-item" data-slide="31" onclick="gotoSlide(31)">Kết luận & Ôn tập</div>
@@ -373,13 +373,49 @@
             </div>
         </div>
     </div>
+    <div class="slide active" data-name="khoi-dong" style="background: radial-gradient(circle at center, #ffffff 0%, #cbd5e1 100%);">
+    <div class="cover-card" style="align-items: center; text-align: center; border-left: 20px solid var(--accent-primary); justify-content: center; padding: 60px; background: rgba(255,255,255,0.9); box-shadow: 0 40px 100px rgba(0,0,0,0.1);">
+        
+        <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 40px; text-align: left;">
+            <img src="data/icon.ico" style="width: 70px; height: 70px; object-fit: contain; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));" alt="Icon">
+            <div style="border-left: 3px solid #b91c1c; padding-left: 20px;">
+                <h3 style="margin: 0; color: #b91c1c; font-size: 28px; font-weight: 900; text-transform: uppercase; letter-spacing: 2px; line-height: 1.2;">
+                    Trường Sĩ quan Pháo binh
+                </h3>
+                <h4 style="margin: 5px 0 0 0; color: #1a1a1a; font-size: 24px; font-weight: 800; text-transform: uppercase; opacity: 0.8;">
+                    Khoa Trinh sát
+                </h4>
+            </div>
+        </div>
 
+        <div style="background: #ffffff; padding: 50px 60px; border-radius: 40px; border: 1px solid rgba(21, 128, 61, 0.1); box-shadow: inset 0 0 20px rgba(21, 128, 61, 0.05), 0 25px 50px -12px rgba(0, 0, 0, 0.1); width: 100%; max-width: 900px; margin-bottom: 50px; position: relative;">
+            <div style="position: absolute; top: 20px; left: 20px; color: var(--accent-primary); opacity: 0.2;"><i data-lucide="scan-eye" style="width: 40px; height: 40px;"></i></div>
+            
+            <h1 style="font-size: 32px; font-weight: 950; color: var(--accent-primary); line-height: 1.4; margin: 0; text-transform: uppercase; letter-spacing: 1px;">
+                Học phần: Khí tài trinh sát, đo đạc
+            </h1>
+            <div style="width: 200px; height: 8px; background: linear-gradient(90deg, transparent, var(--accent-primary), transparent); border-radius: 4px; margin: 30px auto;"></div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+            <button onclick="startLesson()" style="padding: 24px 70px; font-size: 28px; font-weight: 900; color: white; background: linear-gradient(135deg, #15803d 0%, #166534 100%); border: none; border-radius: 100px; cursor: pointer; box-shadow: 0 20px 40px rgba(21, 128, 61, 0.35); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); text-transform: uppercase; letter-spacing: 3px; display: flex; align-items: center; gap: 20px;" onmouseover="this.style.transform='scale(1.08) translateY(-5px)'; this.style.boxShadow='0 30px 60px rgba(21, 128, 61, 0.45)';" onmouseout="this.style.transform='scale(1) translateY(0)';" >
+                <i data-lucide="play-circle" style="width: 40px; height: 40px; fill: white;"></i>
+                BẮT ĐẦU BÀI GIẢNG
+            </button>
+            <div style="display: flex; align-items: center; gap: 10px; color: #64748b;">
+                <i data-lucide="volume-2" style="width: 18px;"></i>
+                <p style="font-size: 16px; font-weight: 700; font-style: italic; margin: 0;">Click để kích hoạt âm thanh hệ thống</p>
+            </div>
+        </div>
+
+    </div>
+</div>
     <div id="main-content">
                 
         <div class="slide active" data-name="trang-bia" style="background-image: repeating-linear-gradient(45deg, rgba(47, 62, 70, 0.1) 0, rgba(47, 62, 70, 0.1) 10px, transparent 10px, transparent 20px);">
             <div class="cover-card">
                 <div style="display: flex; align-items: center; gap: 25px; border-bottom: 2px solid #e5e5e5; padding-bottom: 20px; margin-bottom: 30px;">
-                    <img src="data/icon.ico" onerror="this.src='https://via.placeholder.com/100'" alt="Logo" style="height: 100px; width: auto; border-radius: 50%;">
+                    <img src="data/icon.ico"  alt="Logo" style="height: 100px; width: auto; border-radius: 50%;">
                     <div>
                         <h3 style="margin: 0; color: #b91c1c; font-size: 24px; font-weight: 900; text-transform: uppercase;">Trường Sĩ quan Pháo binh</h3>
                         <h4 style="margin: 5px 0 0 0; color: #1a1a1a; font-size: 20px; font-weight: 800;">KHOA TRINH SÁT</h4>
@@ -389,7 +425,7 @@
                     <div><span style="background: var(--accent-secondary); color: white; padding: 6px 18px; border-radius: 6px; font-weight: 700; text-transform: uppercase; font-size: 14px; letter-spacing: 1px;">Bài giảng điện tử - Bài 9</span></div>
                     <h1 style="font-size: 48px; font-weight: 900; color: #1a1a1a; line-height: 1.25; margin: 0; text-transform: uppercase;">
                         <span style="font-size: 30px; color: var(--text-dim);">Học phần: Khí tài trinh sát, đo đạc</span><br>
-                        <span style="color: var(--accent-primary);">MÁY ĐO XA LASER VECTOR <br>& CAMERA ẢNH NHIỆT JIM LR</span>
+                        <span style="color: var(--accent-primary);">MÁY ĐO XA LASER </span>
                     </h1>
                     <div style="width: 100px; height: 6px; background: var(--accent-primary); border-radius: 3px;"></div>
                     <div style="font-size: 18px; font-weight: 600; color: #4b5563; margin-top: 15px; background: rgba(0,0,0,0.03); padding: 15px 25px; border-radius: 12px; display: inline-block; width: fit-content;">
@@ -560,7 +596,7 @@
             </div>
         </div>
 
-        <div id="slide-6" class="slide">
+        <div class="slide">
             <div class="glass-card">
                 <div class="card-header"><h2 class="slide-title">4. Tổ chức, phương pháp</h2></div>
                 <div class="card-body">
@@ -596,7 +632,7 @@
             </div>
         </div>
 
-        <div id="slide-7" class="slide">
+        <div class="slide">
             <div class="glass-card">
                 <div class="card-header"><h2 class="slide-title">Tài liệu tham khảo</h2></div>
                 <div class="card-body">
@@ -657,7 +693,23 @@
     to { transform: rotate(360deg); }
 }
 </style>
-
+<div class="slide">
+    <div class="glass-card" style="align-items: center; justify-content: center; border-left: 15px solid var(--accent-primary); position: relative; overflow: hidden;">
+        
+        <div style="position: absolute; width: 600px; height: 600px; border: 2px dashed var(--accent-primary); border-radius: 50%; opacity: 0.1; animation: rotate 20s linear infinite; z-index: 0;"></div>
+        <div style="position: absolute; width: 400px; height: 400px; border: 1px solid var(--accent-primary); border-radius: 50%; opacity: 0.1; z-index: 0;"></div>
+        
+        <div class="card-body" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; z-index: 1;">
+            <div style="filter: drop-shadow(0 0 15px var(--accent-primary)); margin-bottom: 25px;">
+                <i data-lucide="crosshair" style="width: 100px; height: 100px; color: var(--accent-primary);"></i>
+            </div>
+            
+            <h1 style="color: #111; font-weight: 900; margin-bottom: 20px; font-size: 55px; text-transform: uppercase;">
+                 <br><span style="color: var(--accent-primary)">A. TÁC DỤNG, TÍNH NĂNG, ĐỒNG BỘ</span>
+            </h1>
+        </div>
+    </div>
+</div>
         <div class="slide">
     <div class="glass-card" style="border: 2px solid #e2e8f0; background: #ffffff;">
         <div class="card-header" style="padding: 30px 50px 10px 50px;">
@@ -698,7 +750,7 @@
                 <div class="fragment" style="position: relative; border: 1px solid #e2e8f0; border-radius: 16px; background: #fafafa; overflow: hidden; display: flex; flex-direction: column;">
                     <div style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 20px; position: relative;">
                         <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: radial-gradient(#e5e7eb 1px, transparent 1px); background-size: 20px 20px; opacity: 0.3;"></div>
-                        <img id="tacdung-img" src="data/vector21_tổng_quan.png" style="max-width: 95%; max-height: 95%; object-fit: contain; z-index: 2; transition: opacity 0.3s ease;">
+                        <img id="tacdung-img" src="data/quansat.png" style="max-width: 85%; max-height: 95%; object-fit: contain; z-index: 2; transition: opacity 0.3s ease;">
                     </div>
 
                     <div style="background: #f1f5f9; padding: 15px; display: flex; align-items: center; justify-content: center; gap: 20px; border-top: 1px solid #e2e8f0;">
@@ -831,12 +883,12 @@
 
                 <div id="content-display" style="flex: 1; border: 1px solid #e2e8f0; border-radius: 4px; display: flex; opacity: 1; transition: opacity 0.4s ease;">
                     <div style="flex: 1; border-right: 1px solid #e2e8f0; display: flex; align-items: center; justify-content: center; padding: 30px; background: #fafafa;">
-                        <img id="detail-img" src="data/vector21_tổng_quan.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                        <img id="detail-img" src="data/thanmay.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
                     </div>
                     <div style="flex: 1.2; padding: 45px; display: flex; flex-direction: column; justify-content: center;">
-                        <h3 id="detail-title" style="font-size: 30px; color: #1e293b; font-weight: 900; margin: 0 0 25px 0; text-transform: uppercase;">1. THÂN MÁY</h3>
+                        <h3 id="detail-title" style="font-size: 30px; color: #1e293b; font-weight: 900; margin: 0 0 25px 0; text-transform: uppercase;">THÔNG TIN CHI TIẾT</h3>
                         <div id="detail-text" style="font-size: 21px; color: #334155; line-height: 1.8; text-align: justify;">
-                            Chứa hệ thống phát/thu tia Laser, hệ thống quang học quan sát và các vi mạch xử lý dữ liệu. Gồm mặt trên có các núm cự ly, phương vị và mặt dưới có khoang pin, gờ kết nối chân máy.
+                            Cấu tạo chính của máy đo xa Laser Vector 21 (23). Chứa bộ vi xử lý và hệ thống thấu kính quang học. Bao gồm các núm điều khiển đo cự ly, phương vị ở mặt trên và các cổng kết nối dữ liệu, khoang chứa pin nguồn ở mặt dưới.
                         </div>
                     </div>
                 </div>
@@ -850,22 +902,22 @@
 
         <div class="slide">
             <div class="glass-card">
-                <div class="card-header"><h2 class="slide-title">4. Cấu tạo</h2></div>
+                <div class="card-header"><h2 class="slide-title">B. CẤU TẠO</h2></div>
                 <div class="card-body">
                     <div class="fragment content-split">
                         <div class="interactive-box img-box" style="border: 2px solid #ccc;">
-                            <img src="data/vector_mat_tren.png" onerror="this.src='https://via.placeholder.com/600x400?text=Mat+tren'">
+                            <img src="data/mattren.png" onerror="this.src='https://via.placeholder.com/600x400?text=Mat+tren'">
                             <div style="position: absolute; top: 15px; left: 15px; font-weight: 800; background: #111; color: #fff; padding: 8px 15px; border-radius: 6px;">a. Cấu tạo mặt trên</div>
-                            <div class="hotspot" style="top: 25%; left: 35%;">1<div class="tooltip">Núm cự ly (1)</div></div>
-                            <div class="hotspot" style="top: 25%; left: 65%;">2<div class="tooltip">Núm phương vị (2)</div></div>
+                            <div class="hotspot" style="top: 65%; left: 35%;">1<div class="tooltip">Núm phương vị</div></div>
+                            <div class="hotspot" style="top: 65%; left: 63%;">2<div class="tooltip">Núm cự ly</div></div>
                         </div>
                         <div class="interactive-box img-box" style="border: 2px solid #ccc;">
-                            <img src="data/vector_mat_duoi.png" onerror="this.src='https://via.placeholder.com/600x400?text=Mat+duoi'">
+                            <img src="data/matduoi.png" onerror="this.src='https://via.placeholder.com/600x400?text=Mat+duoi'">
                             <div style="position: absolute; top: 15px; left: 15px; font-weight: 800; background: #111; color: #fff; padding: 8px 15px; border-radius: 6px;">a. Cấu tạo mặt dưới</div>
-                            <div class="hotspot" style="top: 40%; left: 25%;">1<div class="tooltip">Khoang pin (1)</div></div>
-                            <div class="hotspot" style="top: 55%; left: 50%;">2<div class="tooltip">Gờ kết nối chân máy (2)</div></div>
-                            <div class="hotspot" style="top: 80%; left: 50%;">3<div class="tooltip">Núm điều chỉnh giãn cách mắt (3)</div></div>
-                            <div class="hotspot" style="top: 30%; left: 75%;">4<div class="tooltip">Cổng kết nối (4)</div></div>
+                            <div class="hotspot" style="top: 40%; left: 25%;">4<div class="tooltip">Cổng kết nối</div></div>
+                            <div class="hotspot" style="top: 64%; left: 50%;">3<div class="tooltip">Núm điều chỉnh giãn cách mắt</div></div>
+                            <div class="hotspot" style="top: 50%; left: 70%;">1<div class="tooltip">Khoang pin</div></div>
+                            <div class="hotspot" style="top: 45%; left: 50%;">2<div class="tooltip">Gờ kết nối chân máy</div></div>
                         </div>
                     </div>
                 </div>
@@ -875,7 +927,7 @@
         <div class="slide">
     <div class="glass-card" style="border: 2px solid #e2e8f0; background: #ffffff;">
         <div class="card-header" style="padding: 30px 50px 10px 50px;">
-            <h2 class="slide-title" style="font-size: 32px; color: #dc2626; font-weight: 900; margin: 0; padding: 0 0 10px 0; border-bottom: 5px solid #dc2626; display: inline-block; text-transform: uppercase; letter-spacing: 1px;">4. Cấu tạo (Tiếp theo)</h2>
+            <h2 class="slide-title" style="font-size: 32px; color: #dc2626; font-weight: 900; margin: 0; padding: 0 0 10px 0; border-bottom: 5px solid #dc2626; display: inline-block; text-transform: uppercase; letter-spacing: 1px;">B. CẤU TẠO</h2>
         </div>
         
         <div class="card-body" style="padding: 30px 50px;">
@@ -897,7 +949,7 @@
                         
                         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
                             <div style="background: white; padding: 12px; border-radius: 10px; border: 1px solid #edf2f7; text-align: center;"><span style="display: block; font-size: 15px; font-weight: 800; color: #1e293b;">Kính vật</span></div>
-                            <div style="background: white; padding: 12px; border-radius: 10px; border: 1px solid #edf2f7; text-align: center;"><span style="display: block; font-size: 15px; font-weight: 800; color: #1e293b;">Kính đảo ảnh</span></div>
+                            <div style="background: white; padding: 12px; border-radius: 10px; border: 1px solid #edf2f7; text-align: center;"><span style="display: block; font-size: 15px; font-weight: 800; color: #1e293b;">Lăng kính đảo ảnh</span></div>
                             <div style="background: white; padding: 12px; border-radius: 10px; border: 1px solid #edf2f7; text-align: center;"><span style="display: block; font-size: 15px; font-weight: 800; color: #1e293b;">Kính khắc vạch</span></div>
                             <div style="background: white; padding: 12px; border-radius: 10px; border: 1px solid #edf2f7; text-align: center;"><span style="display: block; font-size: 15px; font-weight: 800; color: #1e293b;">Kính nhìn</span></div>
                         </div>
@@ -988,92 +1040,13 @@
     </div>
 </div>
 
-<script>
-function openStructureModal(type) {
-    const modal = document.getElementById('structure-modal');
-    const content = document.getElementById('modal-content-area');
-    modal.style.display = 'flex';
-    
-    if (type === 'quang-hoc') {
-        content.innerHTML = `
-            <div style="flex: 1.2; background: #fff; display: flex; align-items: center; justify-content: center; padding: 40px; border-right: 1px solid #eee;">
-                <img src="data/vector_quang_hoc.png" style="max-width: 95%; filter: drop-shadow(0 10px 30px rgba(0,0,0,0.1));">
-            </div>
-            <div style="flex: 0.8; padding: 60px; background: #f8fafc; display: flex; flex-direction: column; justify-content: center;">
-                <h2 style="font-size: 32px; color: #15803d; font-weight: 900; margin-bottom: 30px; border-bottom: 4px solid #15803d; padding-bottom: 10px; display: inline-block;">HỆ THỐNG QUANG HỌC</h2>
-                <div style="background: white; padding: 30px; border-radius: 20px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                    <ul style="font-size: 20px; line-height: 2; color: #334155; list-style-type: none; padding: 0;">
-                        <li style="margin-bottom: 10px;"><i data-lucide="check-circle" style="display: inline-block; vertical-align: middle; margin-right: 10px; color: #15803d;"></i> <strong>Kính vật:</strong> Thu nhận tia sáng và ảnh.</li>
-                        <li style="margin-bottom: 10px;"><i data-lucide="check-circle" style="display: inline-block; vertical-align: middle; margin-right: 10px; color: #15803d;"></i> <strong>Kính đảo ảnh:</strong> Chuyển ảnh ngược thành thuận.</li>
-                        <li style="margin-bottom: 10px;"><i data-lucide="check-circle" style="display: inline-block; vertical-align: middle; margin-right: 10px; color: #15803d;"></i> <strong>Kính khắc vạch:</strong> Hệ vạch chuẩn đo đạc.</li>
-                        <li style="margin-bottom: 10px;"><i data-lucide="check-circle" style="display: inline-block; vertical-align: middle; margin-right: 10px; color: #15803d;"></i> <strong>Kính nhìn:</strong> Tùy chỉnh phù hợp mắt người đo.</li>
-                        <li style="margin-top: 25px; padding-top: 15px; border-top: 2px dashed #eee; color: #dc2626;"><i data-lucide="zap" style="display: inline-block; vertical-align: middle; margin-right: 10px;"></i> <strong>Đầu phát Laser IR:</strong> 1550nm (An toàn cho mắt).</li>
-                    </ul>
-                </div>
-            </div>`;
-    } else if (type === 'chan-may') {
-        content.innerHTML = `
-            <div style="flex: 1.2; background: #fff; display: flex; align-items: center; justify-content: center; padding: 40px; position: relative; border-right: 1px solid #eee;">
-                <img src="data/vector_chan_may.png" style="max-width: 85%;">
-                <div class="hotspot" style="top: 20%; left: 45%;">1<div class="tooltip">Khóa hãm tà</div></div>
-                <div class="hotspot" style="top: 35%; left: 55%;">2<div class="tooltip">Ổ kết nối</div></div>
-                <div class="hotspot" style="top: 50%; left: 40%;">3<div class="tooltip">Bọt nước thăng bằng</div></div>
-                <div class="hotspot" style="top: 65%; left: 60%;">4<div class="tooltip">Khóa hãm hướng</div></div>
-            </div>
-            <div style="flex: 0.8; padding: 60px; background: #fffaf0; display: flex; flex-direction: column; justify-content: center;">
-                <h2 style="font-size: 32px; color: #dc2626; font-weight: 900; margin-bottom: 25px;">CHI TIẾT CHÂN MÁY</h2>
-                <div style="background: white; padding: 25px; border-radius: 15px; border-left: 6px solid #dc2626; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-                    <p style="font-size: 18px; color: #92400e; font-weight: 600; line-height: 1.6; margin: 0;">
-                        <i data-lucide="mouse-pointer-2" style="display: inline-block; vertical-align: middle; margin-right: 8px;"></i>
-                        Hướng dẫn: Đồng chí hãy rê chuột vào các vòng tròn số trên hình ảnh để xem tên gọi chi tiết của từng bộ phận.
-                    </p>
-                </div>
-            </div>`;
-    } else if (type === 'phu-tung') {
-        content.innerHTML = `
-            <div style="flex: 1.2; background: #fff; display: flex; align-items: center; justify-content: center; padding: 40px; border-right: 1px solid #eee;">
-                <img id="pt-img-detail" src="data/vector_phu_tung_1.png" style="max-width: 85%; transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);">
-            </div>
-            <div style="flex: 0.8; padding: 50px; background: #f0f9ff; display: flex; flex-direction: column; gap: 15px; justify-content: center;">
-                <h2 style="font-size: 32px; color: #0ea5e9; font-weight: 900; margin-bottom: 15px;">PHỤ TÙNG ĐỒNG BỘ</h2>
-                <div onclick="updateModalPt(1, this)" style="padding: 20px; background: #e0f2fe; border: 2px solid #0ea5e9; border-radius: 15px; cursor: pointer; font-weight: 800; display: flex; align-items: center; gap: 15px;"><span style="background: #0ea5e9; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">1</span> Túi đựng (Hộp nhựa cứng)</div>
-                <div onclick="updateModalPt(2, this)" style="padding: 20px; background: #fff; border: 1px solid #ddd; border-radius: 15px; cursor: pointer; font-weight: 700; display: flex; align-items: center; gap: 15px;"><span style="background: #94a3b8; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">2</span> Pin nguồn chuyên dụng</div>
-                <div onclick="updateModalPt(3, this)" style="padding: 20px; background: #fff; border: 1px solid #ddd; border-radius: 15px; cursor: pointer; font-weight: 700; display: flex; align-items: center; gap: 15px;"><span style="background: #94a3b8; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">3</span> Cáp truyền dữ liệu</div>
-                <div onclick="updateModalPt(4, this)" style="padding: 20px; background: #fff; border: 1px solid #ddd; border-radius: 15px; cursor: pointer; font-weight: 700; display: flex; align-items: center; gap: 15px;"><span style="background: #94a3b8; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">4</span> Sách hướng dẫn sử dụng</div>
-            </div>`;
-    }
-    lucide.createIcons();
-}
 
-function updateModalPt(idx, el) {
-    document.getElementById('pt-img-detail').style.opacity = '0';
-    document.getElementById('pt-img-detail').style.transform = 'scale(0.9)';
-    setTimeout(() => {
-        document.getElementById('pt-img-detail').src = `data/vector_phu_tung_${idx}.png`;
-        document.getElementById('pt-img-detail').style.opacity = '1';
-        document.getElementById('pt-img-detail').style.transform = 'scale(1)';
-    }, 200);
-    
-    const items = el.parentElement.querySelectorAll('div');
-    items.forEach(item => {
-        item.style.background = "#fff";
-        item.style.border = "1px solid #ddd";
-        item.style.fontWeight = "700";
-        item.querySelector('span').style.background = "#94a3b8";
-    });
-    el.style.background = "#e0f2fe";
-    el.style.border = "2px solid #0ea5e9";
-    el.style.fontWeight = "800";
-    el.querySelector('span').style.background = "#0ea5e9";
-}
 
-function closeStructureModal() { document.getElementById('structure-modal').style.display = 'none'; }
-</script>
 
         <div class="slide">
     <div class="glass-card" style="border: 2px solid #cbd5e1; background: #ffffff;">
         <div class="card-header" style="padding: 30px 50px 10px 50px; border-bottom: 2px solid #e2e8f0;">
-            <h2 class="slide-title" style="font-size: 32px; color: #991b1b; font-weight: 900; margin: 0; padding: 0 0 10px 0; border-bottom: 5px solid #991b1b; display: inline-block; text-transform: uppercase; letter-spacing: 1px;">5. Sử dụng</h2>
+            <h2 class="slide-title" style="font-size: 32px; color: #991b1b; font-weight: 900; margin: 0; padding: 0 0 10px 0; border-bottom: 5px solid #991b1b; display: inline-block; text-transform: uppercase; letter-spacing: 1px;">C. SỬ DỤNG</h2>
         </div>
         
         <div class="card-body" style="padding: 40px 50px; background: #fcfcfc;">
@@ -1126,7 +1099,7 @@ function closeStructureModal() { document.getElementById('structure-modal').styl
         <div class="slide">
     <div class="glass-card" style="border: 2px solid #cbd5e1; background: #ffffff;">
         <div class="card-header" style="padding: 20px 40px; border-bottom: 2px solid #e2e8f0;">
-            <h2 class="slide-title" style="font-size: 28px; color: #14532d; font-weight: 900; margin: 0; text-transform: uppercase;">5. Sử dụng</h2>
+            <h2 class="slide-title" style="font-size: 28px; color: #14532d; font-weight: 900; margin: 0; text-transform: uppercase;">C. SỬ DỤNG</h2>
         </div>
         
         <div class="card-body" style="padding: 30px 40px; display: flex; gap: 30px; height: 560px;">
@@ -1170,7 +1143,7 @@ function closeStructureModal() { document.getElementById('structure-modal').styl
             <div style="flex: 1.3; background: #f1f5f9; border-radius: 20px; overflow: hidden; position: relative; border: 1px solid #cbd5e1; display: flex; align-items: center; justify-content: center;">
                 
                 <div id="proc-display" style="text-align: center; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 25px;">
-                    <img id="proc-img" src="data/tu_the_chuan.png" style="max-width: 95%; max-height: 75%; border-radius: 12px; box-shadow: 0 15px 30px rgba(0,0,0,0.12); margin-bottom: 20px;">
+                    <img id="proc-img" src="data/dubo.png" style="max-width: 95%; max-height: 75%; border-radius: 12px; box-shadow: 0 15px 30px rgba(0,0,0,0.12); margin-bottom: 20px;">
                     <div id="proc-text" style="font-size: 18px; font-weight: 800; color: #ffffff; background: #15803d; padding: 12px 30px; border-radius: 10px; width: 90%;">
                         Tư thế: Sử dụng máy trên giá 3 chân
                     </div>
@@ -1199,405 +1172,368 @@ function closeStructureModal() { document.getElementById('structure-modal').styl
     @keyframes pulse-orange { 0% { box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.7); } 70% { box-shadow: 0 0 0 10px rgba(249, 115, 22, 0); } 100% { box-shadow: 0 0 0 0 rgba(249, 115, 22, 0); } }
 </style>
 
-<script>
-// Hàm chuyển đổi các bước (Ảnh)
-function showProc(type, el) {
-    stopAndHideVideo(); // Tắt video ngay khi bấm vào bước khác
-    
-    const img = document.getElementById('proc-img');
-    const txt = document.getElementById('proc-text');
-    
-    document.querySelectorAll('.proc-item, .sub-btn').forEach(node => {
-        node.classList.remove('active', 'active-sub');
-        if(node.classList.contains('proc-item')) { node.style.borderLeftColor = '#64748b'; node.style.background = '#f8fafc'; }
-    });
-    
-    if(el.classList.contains('sub-btn')) el.classList.add('active-sub');
-    else { el.classList.add('active'); el.style.borderLeftColor = '#15803d'; el.style.background = '#f1f5f9'; }
 
-    const procData = {
-        'tu-the': { img: 'data/tu_the_chuan.png', text: 'TƯ THẾ: Sử dụng trên giá 3 chân hoặc cầm tay.' },
-        'lap-b1': { img: 'data/lap_may_b1.png', text: 'BƯỚC 1: Đeo máy sẵn sàng (như đeo PHB).' },
-        'lap-b2': { img: 'data/lap_may_b2.png', text: 'BƯỚC 2: Triển khai lắp chân máy ở tư thế quỳ bắn.' },
-        'lap-pin': { img: 'data/lap_may_pin.png', text: 'BƯỚC 3: Ngửa máy trên đùi trái, lắp pin đúng cực.' },
-        'lap-than': { img: 'data/lap_may_than.png', text: 'BƯỚC 4: Tay phải cầm máy, tay trái đóng cần liên kết.' },
-        'thu-may': { img: 'data/thu_may.png', text: 'THU MÁY: Thực hiện ngược lại quy trình lắp máy.' }
-    };
-
-    img.style.opacity = '0';
-    setTimeout(() => {
-        img.src = procData[type].img;
-        txt.innerText = procData[type].text;
-        img.style.opacity = '1';
-    }, 150);
-}
-
-// Hàm mở Video
-function showVideo(el) {
-    document.querySelectorAll('.proc-item, .sub-btn').forEach(node => node.classList.remove('active', 'active-sub'));
-    el.style.background = '#fff7ed';
-    
-    document.getElementById('proc-display').style.display = 'none';
-    const videoCont = document.getElementById('video-container');
-    const video = document.getElementById('guide-video');
-    
-    videoCont.style.display = 'flex';
-    video.play(); // Auto play khi mở
-    lucide.createIcons();
-}
-
-// Hàm tắt video khi bấm nút thoát hoặc chuyển mục
-function stopAndHideVideo() {
-    const video = document.getElementById('guide-video');
-    const videoCont = document.getElementById('video-container');
-    const procDisplay = document.getElementById('proc-display');
-    
-    if(video) {
-        video.pause();
-        video.currentTime = 0; // Reset video về đầu
-    }
-    if(videoCont) videoCont.style.display = 'none';
-    if(procDisplay) procDisplay.style.display = 'flex';
-}
-
-function closeVideo() {
-    stopAndHideVideo();
-    // Quay lại mục đầu tiên
-    showProc('tu-the', document.querySelector('.proc-item'));
-}
-
-// TỰ ĐỘNG TẮT KHI CHUYỂN SLIDE: 
-// Đồng chí hãy thêm dòng stopAndHideVideo() vào trong hàm chuyển slide (nextAction/prevAction) của file chính.
-</script>
 
         <div class="slide">
-    <div class="glass-card" style="border: 2px solid #cbd5e1; background: #ffffff;">
-        <div class="card-header" style="padding: 30px 50px 10px 50px;">
-            <h2 class="slide-title" style="font-size: 32px; color: #dc2626; font-weight: 900; margin: 0; padding: 0 0 10px 0; border-bottom: 5px solid #dc2626; display: inline-block; text-transform: uppercase; letter-spacing: 1px;">5. Sử dụng</h2>
+    <div class="glass-card" style="border: 2px solid #cbd5e1; background: #ffffff; border-radius: 30px; overflow: hidden;">
+        <div class="card-header" style="padding: 30px 50px 10px 50px; background: #f8fafc; border-bottom: 2px solid #e2e8f0;">
+            <h2 class="slide-title" style="font-size: 32px; color: #dc2626; font-weight: 900; margin: 0; padding: 0 0 10px 0; border-bottom: 5px solid #dc2626; display: inline-block; text-transform: uppercase; letter-spacing: 1px;">
+                C. SỬ DỤNG
+            </h2>
         </div>
         
-        <div class="card-body" style="padding: 30px 50px;">
+        <div class="card-body" style="padding: 40px 50px;">
             <div class="fragment">
-                <h3 style="font-size: 24px; color: #15803d; font-weight: 800; margin-bottom: 25px; display: flex; align-items: center; gap: 12px;">
-                    <i data-lucide="settings"></i> c. Cài đặt cho máy
+                <h3 style="font-size: 24px; color: #15803d; font-weight: 800; margin-bottom: 20px; display: flex; align-items: center; gap: 12px; border-left: 6px solid #15803d; padding-left: 15px;">
+                    B. Chuẩn bị máy làm việc
                 </h3>
+
+                <div style="display: flex; flex-wrap: wrap; gap: 20px; background: #f1f5f9; padding: 15px 25px; border-radius: 15px; margin-bottom: 30px; border: 1px dashed #cbd5e1; align-items: center;">
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <i data-lucide="chevrons-up-down" style="width: 20px; color: #1e293b;"></i>
+                        <span style="font-size: 15px; color: #334155; font-weight: 600;">: Nhấn nhả;</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <i data-lucide="arrow-up" style="width: 20px; color: #1e293b;"></i>
+                        <span style="font-size: 15px; color: #334155; font-weight: 600;">: Nhả;</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <i data-lucide="arrow-down" style="width: 20px; color: #1e293b;"></i>
+                        <span style="font-size: 15px; color: #334155; font-weight: 600;">: Nhấn giữ</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px; padding-left: 20px; border-left: 2px solid #cbd5e1; margin-left: 10px;">
+                        <span style="font-weight: 900; color: #1e293b; font-size: 16px;">3<sup>X</sup>, 5<sup>X</sup> :</span>
+                        <span style="font-size: 15px; color: #334155; font-weight: 600;">Nhấn nhả 3, 5 lần liên tiếp</span>
+                    </div>
+                </div>
                 
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
-                    <div onclick="openSetupModal('config')" style="background: #f8fafc; padding: 30px; border-radius: 20px; border: 1px solid #e2e8f0; border-top: 6px solid #15803d; cursor: pointer; transition: 0.3s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-                            <h4 style="font-size: 22px; font-weight: 900; color: #1e293b; margin: 0;">CÀI ĐẶT CẤU HÌNH (Con FIG)</h4>
-                            <i data-lucide="maximize-2" style="color: #15803d;"></i>
+                    <div onclick="openSetupModal('config')" style="background: #f8fafc; padding: 35px; border-radius: 24px; border: 1px solid #e2e8f0; border-top: 8px solid #15803d; cursor: pointer; transition: 0.3s; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateY(-5px)'; this.style.background='#ffffff'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='translateY(0)'; this.style.background='#f8fafc'; this.style.boxShadow='none'">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+                            <div>
+                                <h4 style="font-size: 22px; font-weight: 900; color: #1e293b; margin: 0; text-transform: uppercase;">Cài đặt cấu hình</h4>
+                                <span style="color: #64748b; font-weight: 600; font-family: monospace;">(Con FIG)</span>
+                            </div>
+                            <div style="background: #f0fdf4; padding: 10px; border-radius: 12px;">
+                                <i data-lucide="monitor-dot" style="color: #15803d; width: 28px; height: 28px;"></i>
+                            </div>
                         </div>
-                        <p style="font-size: 17px; color: #475569; line-height: 1.6;">Thiết lập các chế độ hiển thị 3D, đo liên tục và chế độ ban đêm.</p>
-                        <div style="margin-top: 15px; display: flex; gap: 10px;">
-                            <span style="background: #fff; padding: 5px 12px; border-radius: 6px; font-size: 13px; font-weight: 700; border: 1px solid #ddd;">3 dis</span>
-                            <span style="background: #fff; padding: 5px 12px; border-radius: 6px; font-size: 13px; font-weight: 700; border: 1px solid #ddd;">ErEt</span>
-                            <span style="background: #fff; padding: 5px 12px; border-radius: 6px; font-size: 13px; font-weight: 700; border: 1px solid #ddd;">niGt</span>
+                        <p style="font-size: 17px; color: #475569; line-height: 1.6; margin-bottom: 20px;">Thiết lập hiển thị 3D, đo liên tục và chế độ ban đêm.</p>
+                        <div style="display: flex; gap: 8px;">
+                            <span style="background: #1e293b; color: #00ff00; padding: 6px 12px; border-radius: 8px; font-family: monospace; font-size: 14px; font-weight: 700;">3 dis</span>
+                            <span style="background: #1e293b; color: #00ff00; padding: 6px 12px; border-radius: 8px; font-family: monospace; font-size: 14px; font-weight: 700;">ErEt</span>
+                            <span style="background: #1e293b; color: #00ff00; padding: 6px 12px; border-radius: 8px; font-family: monospace; font-size: 14px; font-weight: 700;">niGt</span>
                         </div>
                     </div>
 
-                    <div onclick="openSetupModal('unit')" style="background: #f8fafc; padding: 30px; border-radius: 20px; border: 1px solid #e2e8f0; border-top: 6px solid #dc2626; cursor: pointer; transition: 0.3s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-                            <h4 style="font-size: 22px; font-weight: 900; color: #1e293b; margin: 0;">CÀI ĐƠN VỊ ĐO (Unit Sett)</h4>
-                            <i data-lucide="maximize-2" style="color: #dc2626;"></i>
+                    <div onclick="openSetupModal('unit')" style="background: #f8fafc; padding: 35px; border-radius: 24px; border: 1px solid #e2e8f0; border-top: 8px solid #dc2626; cursor: pointer; transition: 0.3s; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateY(-5px)'; this.style.background='#ffffff'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='translateY(0)'; this.style.background='#f8fafc'; this.style.boxShadow='none'">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+                            <div>
+                                <h4 style="font-size: 22px; font-weight: 900; color: #1e293b; margin: 0; text-transform: uppercase;">Cài đặt đơn vị</h4>
+                                <span style="color: #64748b; font-weight: 600; font-family: monospace;">(Unit Sett)</span>
+                            </div>
+                            <div style="background: #fef2f2; padding: 10px; border-radius: 12px;">
+                                <i data-lucide="ruler" style="color: #dc2626; width: 28px; height: 28px;"></i>
+                            </div>
                         </div>
-                        <p style="font-size: 17px; color: #475569; line-height: 1.6;">Thiết lập đơn vị đo phương vị phù hợp với yêu cầu nhiệm vụ (Ly giác).</p>
-                        <div style="margin-top: 15px; display: flex; gap: 10px;">
-                            <span style="background: #fff; padding: 5px 12px; border-radius: 6px; font-size: 13px; font-weight: 700; border: 1px solid #ddd;">6000 SI-U</span>
-                            <span style="background: #fff; padding: 5px 12px; border-radius: 6px; font-size: 13px; font-weight: 700; border: 1px solid #ddd;">6400</span>
+                        <p style="font-size: 17px; color: #475569; line-height: 1.6; margin-bottom: 20px;">Thiết lập đơn vị đo phương vị (Ly giác) theo yêu cầu nhiệm vụ.</p>
+                        <div style="display: flex; gap: 8px;">
+                            <span style="background: #1e293b; color: #00ff00; padding: 6px 12px; border-radius: 8px; font-family: monospace; font-size: 14px; font-weight: 700;">6000 SI-U</span>
+                            <span style="background: #1e293b; color: #00ff00; padding: 6px 12px; border-radius: 8px; font-family: monospace; font-size: 14px; font-weight: 700;">6400</span>
                         </div>
                     </div>
                 </div>
-                
-                <div style="margin-top: 30px; padding: 20px; background: #fffbeb; border-radius: 12px; border: 1px solid #fde68a; display: flex; align-items: center; gap: 15px;">
-                    <i data-lucide="lightbulb" style="color: #d97706; width: 30px; height: 30px;"></i>
-                    <p style="margin: 0; font-size: 18px; color: #92400e; font-weight: 600;">Lưu ý: Thao tác "ấn nhả 5 lần" cần thực hiện dứt khoát để máy nhận lệnh vào menu cài đặt.</p>
+
+                <div class="fragment" style="margin-top: 35px; padding: 25px; background: #fffbeb; border-radius: 20px; border-left: 8px solid #fbbf24; display: flex; align-items: center; gap: 20px;">
+                    <i data-lucide="zap" style="color: #fbbf24; fill: #fbbf24;"></i>
+                    <p style="margin: 0; font-size: 18px; color: #92400e; font-weight: 800;">LƯU Ý: Thao tác "Ấn nhả dứt khoát 5 lần" là bắt buộc để máy nhận lệnh truy cập vào Menu.</p>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div id="setup-modal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 23, 42, 0.95); z-index: 6000; display: none; align-items: center; justify-content: center; backdrop-filter: blur(10px);">
-        <div style="background: white; width: 90%; height: 85%; border-radius: 24px; position: relative; display: flex; overflow: hidden; box-shadow: 0 25px 50px rgba(0,0,0,0.5);">
-            <button onclick="closeSetupModal()" style="position: absolute; top: 20px; right: 20px; background: #f1f5f9; border: none; width: 45px; height: 45px; border-radius: 50%; cursor: pointer; z-index: 100;"><i data-lucide="x"></i></button>
-            <div id="setup-modal-content" style="flex: 1; display: flex; width: 100%;"></div>
         </div>
     </div>
 </div>
 
-<script>
-function openSetupModal(type) {
-    const modal = document.getElementById('setup-modal');
-    const content = document.getElementById('setup-modal-content');
-    modal.style.display = 'flex';
-    
-    // Tắt audio bài giảng nếu đang phát để tập trung hướng dẫn
-    if(typeof currentAudio !== 'undefined') currentAudio.pause();
-
-    if (type === 'config') {
-        content.innerHTML = `
-            <div style="flex: 1.2; background: #1e293b; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px; color: #00ff00; font-family: monospace;">
-                <div style="border: 4px solid #334155; padding: 40px; border-radius: 10px; background: #0f172a; text-align: center;">
-                    <div style="font-size: 60px; margin-bottom: 20px; text-shadow: 0 0 10px #00ff00;">Con FIG</div>
-                    <div style="font-size: 20px; color: #fff; opacity: 0.7;">[ Màn hình hiển thị nội bộ ]</div>
-                </div>
-            </div>
-            <div style="flex: 0.8; padding: 60px; display: flex; flex-direction: column; justify-content: center; background: #fff;">
-                <h2 style="font-size: 30px; color: #15803d; font-weight: 900; margin-bottom: 30px;">CÀI ĐẶT CẤU HÌNH</h2>
-                <div style="display: flex; flex-direction: column; gap: 20px;">
-                    <div style="display: flex; gap: 15px;"><span style="background: #15803d; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-weight: 900;">1</span><p style="font-size: 18px; margin: 0;">Ấn nhả <strong>phím cự ly</strong> 5 lần liên tiếp.</p></div>
-                    <div style="display: flex; gap: 15px;"><span style="background: #15803d; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-weight: 900;">2</span><p style="font-size: 18px; margin: 0;">Ấn <strong>phím phương vị</strong> để chọn: 3 dis (đo 3D), ErEt (đo liên tục), niGt (đêm).</p></div>
-                    <div style="display: flex; gap: 15px;"><span style="background: #15803d; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-weight: 900;">3</span><p style="font-size: 18px; margin: 0;">Ấn nhả 5 lần <strong>phím cự ly</strong> để lưu (Stor).</p></div>
-                </div>
-            </div>`;
-    } else {
-        content.innerHTML = `
-            <div style="flex: 1.2; background: #1e293b; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px; color: #00ff00; font-family: monospace;">
-                <div style="border: 4px solid #334155; padding: 40px; border-radius: 10px; background: #0f172a; text-align: center;">
-                    <div style="font-size: 60px; margin-bottom: 20px; text-shadow: 0 0 10px #00ff00;">Unit Sett</div>
-                    <div style="font-size: 20px; color: #fff; opacity: 0.7;">[ Màn hình hiển thị nội bộ ]</div>
-                </div>
-            </div>
-            <div style="flex: 0.8; padding: 60px; display: flex; flex-direction: column; justify-content: center; background: #fff;">
-                <h2 style="font-size: 30px; color: #dc2626; font-weight: 900; margin-bottom: 30px;">CÀI ĐƠN VỊ PHƯƠNG VỊ</h2>
-                <div style="display: flex; flex-direction: column; gap: 20px;">
-                    <div style="display: flex; gap: 15px;"><span style="background: #dc2626; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-weight: 900;">1</span><p style="font-size: 18px; margin: 0;">Ấn nhả <strong>phím phương vị</strong> 5 lần liên tiếp.</p></div>
-                    <div style="display: flex; gap: 15px;"><span style="background: #dc2626; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-weight: 900;">2</span><p style="font-size: 18px; margin: 0;">Ấn <strong>phím cự ly</strong> để chọn số Ly giác (6000 hoặc 6400).</p></div>
-                    <div style="display: flex; gap: 15px;"><span style="background: #dc2626; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-weight: 900;">3</span><p style="font-size: 18px; margin: 0;">Ấn nhả 5 lần <strong>phím phương vị</strong> để lưu (Stor).</p></div>
-                </div>
-            </div>`;
-    }
-    lucide.createIcons();
-}
-
-function closeSetupModal() {
-    document.getElementById('setup-modal').style.display = 'none';
-}
-</script>
-
-        <div class="slide">
-    <div class="glass-card" style="border: 2px solid #cbd5e1; background: #ffffff;">
-        <div class="card-header" style="padding: 30px 50px 10px 50px;">
-            <h2 class="slide-title" style="font-size: 32px; color: #dc2626; font-weight: 900; margin: 0; padding: 0 0 10px 0; border-bottom: 5px solid #dc2626; display: inline-block; text-transform: uppercase; letter-spacing: 1px;">5. Sử dụng</h2>
+<div class="slide">
+    <div class="glass-card" style="border: 2px solid #cbd5e1; background: #ffffff; border-radius: 30px; overflow: hidden;">
+        <div class="card-header" style="padding: 30px 50px 10px 50px; background: #f8fafc; border-bottom: 2px solid #e2e8f0;">
+            <h2 class="slide-title" style="font-size: 32px; color: #dc2626; font-weight: 900; margin: 0; padding: 0 0 10px 0; border-bottom: 5px solid #dc2626; display: inline-block; text-transform: uppercase; letter-spacing: 1px;">
+                C. SỬ DỤNG
+            </h2>
         </div>
         
-        <div class="card-body" style="padding: 30px 50px;">
+        <div class="card-body" style="padding: 40px 50px;">
             <div class="fragment" style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 30px;">
-                
                 <div>
-                    <h3 style="font-size: 24px; color: #15803d; font-weight: 800; margin-bottom: 20px; display: flex; align-items: center; gap: 12px;">
+                    <h3 style="font-size: 24px; color: #15803d; font-weight: 800; margin-bottom: 25px; display: flex; align-items: center; gap: 12px; border-left: 6px solid #15803d; padding-left: 15px;">
                         <i data-lucide="settings-2"></i> c. Cài đặt (dist Gate)
                     </h3>
                     
-                    <div onclick="openSetupModal('distgate')" style="background: #f8fafc; padding: 25px; border-radius: 20px; border: 1px solid #e2e8f0; border-top: 6px solid #15803d; cursor: pointer; transition: 0.3s; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-                            <h4 style="font-size: 20px; font-weight: 900; color: #1e293b; margin: 0;">ĐẶT CỰ LY ĐO TỐI THIỂU (dist Gate)</h4>
-                            <i data-lucide="expand" style="color: #15803d;"></i>
+                    <div onclick="openSetupModal('distgate')" style="background: #f8fafc; padding: 30px; border-radius: 20px; border: 1px solid #e2e8f0; border-top: 8px solid #15803d; cursor: pointer; transition: 0.3s; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                            <h4 style="font-size: 20px; font-weight: 900; color: #1e293b; margin: 0; text-transform: uppercase;">Đặt cự ly tối thiểu (dist Gate)</h4>
+                            <i data-lucide="maximize-2" style="color: #15803d;"></i>
                         </div>
-                        <div style="display: flex; flex-direction: column; gap: 12px;">
-                            <div style="display: flex; gap: 10px; align-items: center;">
-                                <span style="background: #15803d; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 900;">1</span>
-                                <p style="margin: 0; font-size: 17px;">Ấn nhả <strong>phím cự ly</strong> 5 lần hiện <code>dist Gate</code>.</p>
+                        <div style="display: flex; flex-direction: column; gap: 15px; text-align: left;">
+                            <div style="display: flex; gap: 12px; align-items: center;">
+                                <span style="background: #15803d; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; flex-shrink: 0;">1</span>
+                                <p style="margin: 0; font-size: 17px; color: #334155;">Ấn nhả <strong>phím cự ly</strong> 5 lần hiện <code>dist Gate</code>.</p>
                             </div>
-                            <div style="display: flex; gap: 10px; align-items: center;">
-                                <span style="background: #15803d; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 900;">2</span>
-                                <p style="margin: 0; font-size: 17px;">Ấn <strong>phím phương vị</strong> chọn giá trị (5 - 25000).</p>
+                            <div style="display: flex; gap: 12px; align-items: center;">
+                                <span style="background: #15803d; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; flex-shrink: 0;">2</span>
+                                <p style="margin: 0; font-size: 17px; color: #334155;">Ấn <strong>phím phương vị</strong> chọn giá trị (5 - 25000).</p>
                             </div>
-                            <div style="display: flex; gap: 10px; align-items: center;">
-                                <span style="background: #15803d; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 900;">3</span>
-                                <p style="margin: 0; font-size: 17px;">Ấn nhả 5 lần <strong>phím cự ly</strong> để lưu (Stor).</p>
+                            <div style="display: flex; gap: 12px; align-items: center;">
+                                <span style="background: #15803d; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; flex-shrink: 0;">3</span>
+                                <p style="margin: 0; font-size: 17px; color: #334155;">Ấn nhả 5 lần <strong>phím cự ly</strong> để lưu (Stor).</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div style="display: flex; flex-direction: column; justify-content: center;">
-                    <div style="background: #fffbeb; border: 2px solid #fde68a; padding: 25px; border-radius: 20px; border-left: 10px solid #d97706; box-shadow: 0 10px 20px rgba(217, 119, 6, 0.05);">
-                        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
+                    <div style="background: #fffbeb; border: 2px solid #fde68a; padding: 30px; border-radius: 25px; border-left: 10px solid #d97706; box-shadow: 0 10px 20px rgba(217, 119, 6, 0.05);">
+                        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 20px;">
                             <i data-lucide="history" style="color: #b45309; width: 28px; height: 28px;"></i>
                             <h4 style="font-size: 20px; font-weight: 900; color: #b45309; margin: 0; text-transform: uppercase;">Kinh nghiệm huấn luyện</h4>
                         </div>
-                        <p style="font-size: 16px; color: #78350f; line-height: 1.6; margin: 0; font-style: italic;">
+                        <p style="font-size: 16px; color: #78350f; line-height: 1.7; margin: 0; font-style: italic; text-align: justify;">
                             "Tháng 11/2024, BTL phúc tra, 02 học viên không đo được do cài đặt sai cự ly tối thiểu (500m). Khi mục tiêu gần hơn 500m, máy sẽ không báo kết quả."
                         </p>
-                        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #d97706; font-weight: 800; color: #b45309; font-size: 16px;">
-                            <i data-lucide="check-square" style="width: 18px; display: inline; vertical-align: middle;"></i> BÀI HỌC: Kết hợp đếm nhẩm khi nhấn phím.
+                        <div style="margin-top: 20px; padding-top: 15px; border-top: 1px dashed #d97706; font-weight: 800; color: #b45309; font-size: 16px;">
+                            <i data-lucide="zap" style="width: 18px; display: inline; vertical-align: middle; fill: #b45309;"></i> BÀI HỌC: Luôn kiểm tra dist Gate trước khi đo.
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
+</div>
 
-    <div id="distgate-modal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 23, 42, 0.9); z-index: 6000; display: none; align-items: center; justify-content: center; backdrop-filter: blur(10px);">
-        <div style="background: white; width: 85%; height: 80%; border-radius: 24px; position: relative; display: flex; overflow: hidden; box-shadow: 0 25px 50px rgba(0,0,0,0.5);">
-            <button onclick="closeDistGateModal()" style="position: absolute; top: 20px; right: 20px; background: #f1f5f9; border: none; width: 45px; height: 45px; border-radius: 50%; cursor: pointer; z-index: 100;"><i data-lucide="x"></i></button>
-            
-            <div style="flex: 1.2; background: #1e293b; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #00ff00; font-family: monospace;">
-                <div style="border: 4px solid #334155; padding: 50px; border-radius: 15px; background: #0f172a; text-align: center;">
-                    <div id="modal-screen-text" style="font-size: 70px; text-shadow: 0 0 15px #00ff00; letter-spacing: 5px;">dist Gate</div>
-                    <div style="font-size: 18px; color: #fff; opacity: 0.5; margin-top: 20px;">[ THIẾT LẬP CỰ LY TỐI THIỂU ]</div>
-                </div>
-            </div>
-            
-            <div style="flex: 0.8; padding: 50px; display: flex; flex-direction: column; justify-content: center; background: #fff;">
-                <h2 style="font-size: 30px; color: #15803d; font-weight: 900; margin-bottom: 25px;">HƯỚNG DẪN THAO TÁC</h2>
-                <div style="display: flex; flex-direction: column; gap: 20px;">
-                    <p style="font-size: 18px; line-height: 1.6; color: #334155;">
-                        <i data-lucide="info" style="color: #15803d; display: inline; vertical-align: middle;"></i> 
-                        Trong điều kiện rừng rậm hoặc vật cản gần, đồng chí nên cài <strong>dist Gate</strong> lớn hơn khoảng cách vật cản để máy bỏ qua nhiễu và bắt đúng mục tiêu tầm xa.
-                    </p>
-                    <div style="background: #f1f5f9; padding: 20px; border-radius: 12px; border: 1px solid #e2e8f0;">
-                        <span style="font-weight: 800; color: #dc2626;">KẾT QUẢ LƯU:</span><br>
-                        <code style="font-size: 20px; font-weight: 900;">Stor 500 SI-U stor</code>
+        <div class="slide">
+    <div class="glass-card" style="border: none; background: #ffffff; box-shadow: 0 20px 40px rgba(0,0,0,0.1); border-radius: 30px; overflow: hidden;">
+        <div class="card-header" style="padding: 25px 50px; background: linear-gradient(135deg, #15803d 0%, #166534 100%); display: flex; justify-content: space-between; align-items: center;">
+            <h2 class="slide-title" style="font-size: 28px; color: #ffffff; font-weight: 900; margin: 0; text-transform: uppercase; letter-spacing: 1px;">
+                5. Sử dụng
+            </h2>
+            <i data-lucide="target" style="color: rgba(255,255,255,0.2); width: 50px; height: 50px;"></i>
+        </div>
+        
+        <div class="card-body" style="padding: 35px 45px;">
+            <div class="fragment">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                    
+                    <div onclick="openMeasureModal('do-cu-ly-nghieng')" style="background: #f8fafc; padding: 25px; border-radius: 20px; border: 1px solid #e2e8f0; border-left: 8px solid #15803d; cursor: pointer; transition: 0.3s;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.05)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+                        <h4 style="color: #15803d; font-weight: 900; margin-bottom: 10px; font-size: 19px; display: flex; justify-content: space-between;">a. Đo cự ly nghiêng <span style="font-size: 14px; color: #64748b;">(VD1)</span></h4>
+                        <p style="font-size: 16px; color: #475569; margin: 0;">Ngắm điểm đo, nhấn giữ phím <strong>Cự ly</strong>. Nhả và đọc kết quả.</p>
+                        <div style="margin-top: 15px; font-weight: 800; color: #1e293b; background: #fff; padding: 6px 15px; border-radius: 8px; display: inline-block; border: 1px solid #cbd5e1;">KQ: 1191 m</div>
+                    </div>
+
+                    <div onclick="openMeasureModal('do-hon-hop')" style="background: #f8fafc; padding: 25px; border-radius: 20px; border: 1px solid #e2e8f0; border-left: 8px solid #15803d; cursor: pointer; transition: 0.3s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <h4 style="color: #15803d; font-weight: 900; margin-bottom: 10px; font-size: 19px; display: flex; justify-content: space-between;">c. Đo PV & CL cùng lúc <span style="font-size: 14px; color: #64748b;">(VD2)</span></h4>
+                        <p style="font-size: 16px; color: #475569; margin: 0;">Nhấn giữ đồng thời phím <strong>Cự ly & Phương vị</strong>.</p>
+                        <div style="margin-top: 15px; font-weight: 800; color: #1e293b; background: #fff; padding: 6px 15px; border-radius: 8px; display: inline-block; border: 1px solid #cbd5e1;">KQ: 29-41; 1191m</div>
+                    </div>
+
+                    <div onclick="openMeasureModal('do-ngang-chenh-cao')" style="background: #f8fafc; padding: 25px; border-radius: 20px; border: 1px solid #e2e8f0; border-left: 8px solid #15803d; cursor: pointer; transition: 0.3s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <h4 style="color: #15803d; font-weight: 900; margin-bottom: 10px; font-size: 19px; display: flex; justify-content: space-between;">d. Đo CL ngang & Δh <span style="font-size: 14px; color: #64748b;">(VD3)</span></h4>
+                        <p style="font-size: 16px; color: #475569; margin: 0;">Ấn <strong>Nhả - Giữ</strong> phím Cự ly. Trái: CL ngang | Phải: Δh.</p>
+                        <div style="margin-top: 15px; font-weight: 800; color: #1e293b; background: #fff; padding: 6px 15px; border-radius: 8px; display: inline-block; border: 1px solid #cbd5e1;">KQ: D=1191m; Δh=+51m</div>
+                    </div>
+
+                    <div onclick="openMeasureModal('do-giua-hai-muc-tieu')" style="background: #f8fafc; padding: 25px; border-radius: 20px; border: 1px solid #e2e8f0; border-left: 8px solid #15803d; cursor: pointer; transition: 0.3s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <h4 style="color: #15803d; font-weight: 900; margin-bottom: 10px; font-size: 19px; display: flex; justify-content: space-between;">e. Đo CL giữa 2 vật <span style="font-size: 14px; color: #64748b;">(VD4)</span></h4>
+                        <p style="font-size: 16px; color: #475569; margin: 0;">VC1 (giữ CL) + PV (1-P) -> VC2 nhả phím CL.</p>
+                        <div style="margin-top: 15px; font-weight: 800; color: #1e293b; background: #fff; padding: 6px 15px; border-radius: 8px; display: inline-block; border: 1px solid #cbd5e1;">KQ: D = 420m</div>
                     </div>
                 </div>
+
+                <div onclick="openMeasureModal('do-cl-delta-h-2-vc')" style="background: #fff1f2; padding: 30px; border-radius: 25px; border: 2px solid #fecdd3; border-top: 8px solid #dc2626; cursor: pointer; transition: 0.3s; position: relative;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 15px 30px rgba(220, 38, 38, 0.1)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                        <div style="flex: 1;">
+                            <h4 style="color: #dc2626; font-weight: 900; margin-bottom: 12px; font-size: 22px; text-transform: uppercase;">f. Đo khoảng cách & độ chênh cao giữa 2 vật thể (VD5)</h4>
+                            <p style="font-size: 17px; color: #334155; line-height: 1.6;">
+                                <strong>Động tác:</strong> Ngắm VC1 (Nhấn <strong>Nhả - Giữ</strong> phím CL) -> Ấn nhả phím PV (hiện 1-P) -> Ngắm VC2 nhả phím CL.
+                            </p>
+                        </div>
+                        <div style="text-align: right; margin-left: 30px;">
+                            <div style="font-weight: 900; color: #ffffff; background: #dc2626; padding: 10px 20px; border-radius: 12px; font-size: 18px; box-shadow: 0 4px 10px rgba(220, 38, 38, 0.3);">
+                                KQ: D=420m; Δh=+5m
+                            </div>
+                            <div style="margin-top: 10px; color: #dc2626; font-size: 13px; font-weight: 700;">(Bấm để xem chi tiết ảnh ống kính)</div>
+                        </div>
+                    </div>
+                    <i data-lucide="info" style="position: absolute; left: -10px; top: -10px; background: #dc2626; color: white; border-radius: 50%; padding: 5px; width: 30px; height: 30px;"></i>
+                </div>
+
             </div>
         </div>
     </div>
 </div>
 
-<script>
-function openSetupModal(type) {
-    if(type === 'distgate') {
-        document.getElementById('distgate-modal').style.display = 'flex';
-        lucide.createIcons();
-    }
-}
-function closeDistGateModal() {
-    document.getElementById('distgate-modal').style.display = 'none';
-}
-</script>
-        <div class="slide">
-    <div class="glass-card" style="border: 2px solid #cbd5e1; background: #ffffff;">
-        <div class="card-header" style="padding: 20px 40px; border-bottom: 2px solid #e2e8f0;">
-            <h2 class="slide-title" style="font-size: 28px; color: #1e293b; font-weight: 900; margin: 0; text-transform: uppercase;">5. Sử dụng</h2>
+<div class="slide" style="font-family: 'Segoe UI', Roboto, sans-serif; background: #f1f5f9; padding: 20px;">
+    <div class="glass-card" style="border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); background: #ffffff; overflow: hidden;">
+        
+        <div class="card-header" style="padding: 25px 40px; background: linear-gradient(90deg, #1e293b 0%, #334155 100%); border-bottom: 4px solid #dc2626;">
+            <h2 class="slide-title" style="font-size: 26px; color: #ffffff; font-weight: 800; margin: 0; text-transform: uppercase; letter-spacing: 2px;">
+                C. Sử dụng
+            </h2>
         </div>
         
-        <div class="card-body" style="padding: 30px 40px;">
-            <div class="fragment" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+        <div class="card-body" style="padding: 40px;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
                 
-                <div onclick="openMeasureModal('do-cu-ly-nghieng')" style="background: #f8fafc; padding: 20px; border-radius: 15px; border-left: 6px solid #15803d; cursor: pointer; transition: 0.3s;" onmouseover="this.style.background='#f1f5f9'">
-                    <h4 style="color: #15803d; font-weight: 900; margin-bottom: 10px;">a. Đo cự ly nghiêng (VD1)</h4>
-                    <ul style="font-size: 15px; color: #334155; padding-left: 15px;">
-                        <li>Ngắm điểm đo, nhấn giữ phím <strong>Cự ly</strong>.</li>
-                        <li>Nhả phím và đọc kết quả (ô vuông đỏ).</li>
-                    </ul>
-                    <div style="margin-top: 10px; font-weight: 800; color: #1e293b; background: #fff; padding: 5px 10px; border-radius: 5px; display: inline-block;">KQ: 1191 m</div>
+                <div class="measure-group">                    
+                    <div onclick="openMeasureModal('do-phuong-vi')" style="margin-bottom: 15px; background: #fff; border: 1px solid #e2e8f0; border-left: 5px solid #dc2626; border-radius: 12px; padding: 15px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.transform='translateX(5px)'; this.style.borderColor='#dc2626';" onmouseout="this.style.transform='translateX(0)'; this.style.borderColor='#e2e8f0';">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                            <span style="font-weight: 800; color: #dc2626;">a. Góc Phương vị (VD6)</span>
+                            <span style="font-size: 12px; color: #94a3b8; font-family: monospace;">Am = 29-41</span>
+                        </div>
+                        <p style="font-size: 14px; color: #475569; margin: 0; line-height: 1.5;">Nhấn giữ <strong>Phương vị</strong> → Nhả núm → Đọc kết quả từ tính.</p>
+                    </div>
+
+                    <div onclick="openMeasureModal('do-phuong-vi-ta')" style="background: #fff; border: 1px solid #e2e8f0; border-left: 5px solid #ef4444; border-radius: 12px; padding: 15px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.transform='translateX(5px)'; this.style.borderColor='#ef4444';" onmouseout="this.style.transform='translateX(0)'; this.style.borderColor='#e2e8f0';">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                            <span style="font-weight: 800; color: #dc2626;">b. PV & Góc tà mục tiêu (VD7)</span>
+                            <span style="font-size: 11px; color: #94a3b8; font-family: monospace;">Am=29-41; ε=+0-51</span>
+                        </div>
+                        <p style="font-size: 14px; color: #475569; margin: 0; line-height: 1.5;">Ấn <strong>Nhả - Giữ</strong> PV. (Trái: Phương vị | Phải: Độ tà ε)</p>
+                    </div>
                 </div>
 
-                <div onclick="openMeasureModal('do-hon-hop')" style="background: #f8fafc; padding: 20px; border-radius: 15px; border-left: 6px solid #15803d; cursor: pointer; transition: 0.3s;" onmouseover="this.style.background='#f1f5f9'">
-                    <h4 style="color: #15803d; font-weight: 900; margin-bottom: 10px;">c. Đo cùng lúc PV & CL (VD2)</h4>
-                    <ul style="font-size: 15px; color: #334155; padding-left: 15px;">
-                        <li>Nhấn giữ đồng thời <strong>Cự ly & Phương vị</strong>.</li>
-                        <li>Trái: Phương vị | Phải: Cự ly.</li>
-                    </ul>
-                    <div style="margin-top: 10px; font-weight: 800; color: #1e293b; background: #fff; padding: 5px 10px; border-radius: 5px; display: inline-block;">KQ: Am=29-41; D=1191 m</div>
+                <div class="measure-group">
+                    <div onclick="openMeasureModal('do-pv-cl-2-muc-tieu')" style="margin-bottom: 15px; background: #fff; border: 1px solid #e2e8f0; border-left: 5px solid #2563eb; border-radius: 12px; padding: 15px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.transform='translateX(5px)'; this.style.borderColor='#2563eb';" onmouseout="this.style.transform='translateX(0)'; this.style.borderColor='#e2e8f0';">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                            <span style="font-weight: 800; color: #2563eb;">c. PV & Cự ly (VD8)</span>
+                            <span style="font-size: 12px; color: #94a3b8; font-family: monospace;">D = 420m</span>
+                        </div>
+                        <p style="font-size: 14px; color: #475569; margin: 0; line-height: 1.5;">Ngắm VC1 giữ PV → Ấn/Nhả CL → Ngắm VC2 nhả PV.</p>
+                    </div>
+
+                    <div onclick="openMeasureModal('do-huong-kep')" style="background: #fff; border: 1px solid #e2e8f0; border-left: 5px solid #3b82f6; border-radius: 12px; padding: 15px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.transform='translateX(5px)'; this.style.borderColor='#3b82f6';" onmouseout="this.style.transform='translateX(0)'; this.style.borderColor='#e2e8f0';">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                            <span style="font-weight: 800; color: #2563eb;">d. Góc hướng & Góc kẹp (VD9)</span>
+                            <span style="font-size: 12px; color: #94a3b8; font-family: monospace;">β=420; φ=1-18</span>
+                        </div>
+                        <p style="font-size: 14px; color: #475569; margin: 0; line-height: 1.5;">Ngắm VC1 Nhả-Giữ PV → Ấn/Nhả CL → Ngắm VC2 nhả PV.</p>
+                    </div>
                 </div>
 
-                <div onclick="openMeasureModal('do-ngang-chenh-cao')" style="background: #f8fafc; padding: 20px; border-radius: 15px; border-left: 6px solid #15803d; cursor: pointer; transition: 0.3s;" onmouseover="this.style.background='#f1f5f9'">
-                    <h4 style="color: #15803d; font-weight: 900; margin-bottom: 10px;">d. Đo CL ngang & Chênh cao (VD3)</h4>
-                    <ul style="font-size: 15px; color: #334155; padding-left: 15px;">
-                        <li>Ấn <strong>Nhả - Giữ</strong> phím Cự ly.</li>
-                        <li>Trái: Cự ly ngang | Phải: Chênh cao (Δh).</li>
-                    </ul>
-                    <div style="margin-top: 10px; font-weight: 800; color: #1e293b; background: #fff; padding: 5px 10px; border-radius: 5px; display: inline-block;">KQ: D=1191m, Δh=+51m</div>
-                </div>
+            </div>
 
-                <div onclick="openMeasureModal('do-giua-hai-muc-tieu')" style="background: #f8fafc; padding: 20px; border-radius: 15px; border-left: 6px solid #15803d; cursor: pointer; transition: 0.3s;" onmouseover="this.style.background='#f1f5f9'">
-                    <h4 style="color: #15803d; font-weight: 900; margin-bottom: 10px;">e/f. Đo CL giữa 2 mục tiêu (VD4,5)</h4>
-                    <ul style="font-size: 15px; color: #334155; padding-left: 15px;">
-                        <li>Ngắm VC1 giữ CL -> Ấn nhả PV (hiện 1-P).</li>
-                        <li>Ngắm VC2, nhả núm CL và đọc.</li>
-                    </ul>
-                    <div style="margin-top: 10px; font-weight: 800; color: #1e293b; background: #fff; padding: 5px 10px; border-radius: 5px; display: inline-block;">KQ: D = 420m; Δh = +5m</div>
-                </div>
-
+            <div style="margin-top: 30px; padding: 15px; background: #f8fafc; border-radius: 10px; border: 1px dashed #cbd5e1;">
+                <p style="margin: 0; font-size: 13px; color: #64748b; text-align: center;">
+                    <i class="fas fa-info-circle"></i> <strong>Lưu ý:</strong> Di chuyển chuột hoặc chạm vào từng mục để xem chi tiết mô phỏng đo.
+                </p>
             </div>
         </div>
     </div>
 </div>
 <div class="slide">
-    <div class="glass-card" style="border: 2px solid #cbd5e1; background: #ffffff;">
-        <div class="card-header" style="padding: 20px 40px; border-bottom: 2px solid #e2e8f0;">
-            <h2 class="slide-title" style="font-size: 28px; color: #1e293b; font-weight: 900; margin: 0; text-transform: uppercase;">5. Sử dụng</h2>
+    <div class="glass-card" style="border: none; background: #ffffff; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15); border-radius: 30px; overflow: hidden;">
+        <div class="card-header" style="padding: 30px 50px; background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); position: relative;">
+            <div style="position: absolute; right: 40px; top: 50%; transform: translateY(-50%); opacity: 0.15;">
+                <i data-lucide="shield-check" style="width: 80px; height: 80px; color: #fbbf24;"></i>
+            </div>
+            <h2 class="slide-title" style="font-size: 32px; color: #ffffff; font-weight: 900; margin: 0; text-transform: uppercase; border-bottom: 4px solid #fbbf24; display: inline-block; padding-bottom: 5px; letter-spacing: 1px;">
+                D. Bảo quản, giữ gìn
+            </h2>
         </div>
         
-        <div class="card-body" style="padding: 30px 40px;">
-            <div class="fragment" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+        <div class="card-body" style="padding: 40px 50px;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 25px;">
                 
-                <div onclick="openMeasureModal('do-phuong-vi')" style="background: #f8fafc; padding: 20px; border-radius: 15px; border-left: 6px solid #dc2626; cursor: pointer; transition: 0.3s;">
-                    <h4 style="color: #dc2626; font-weight: 900; margin-bottom: 10px;">a. Đo góc phương vị (VD6)</h4>
-                    <p style="font-size: 15px; color: #334155;">Nhấn giữ phím <strong>Phương vị</strong>, nhả núm và đọc kết quả phương vị từ tính.</p>
-                    <div style="margin-top: 10px; font-weight: 800; color: #1e293b; background: #fff; padding: 5px 10px; border-radius: 5px; display: inline-block;">KQ: Am = 29-41</div>
+                <div class="fragment" style="background: #f8fafc; padding: 25px; border-radius: 20px; border: 1px solid #e2e8f0; border-top: 8px solid #475569; transition: 0.3s; position: relative;">
+                    <div style="background: #1e293b; width: 45px; height: 45px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; color: #fff;">
+                        <i data-lucide="wrench"></i>
+                    </div>
+                    <h4 style="color: #1e293b; font-size: 19px; font-weight: 800; text-transform: uppercase; margin-bottom: 15px;">1. Quy định vận hành</h4>
+                    <ul style="margin: 0; padding-left: 10px; color: #475569; font-size: 16px; line-height: 1.8; list-style: none;">
+                        <li style="margin-bottom: 12px; display: flex; gap: 10px;"><i data-lucide="check-circle-2" style="width: 18px; color: #15803d; flex-shrink: 0; margin-top: 4px;"></i> Lau chùi định kỳ bằng dụng cụ chuyên dụng.</li>
+                        <li style="margin-bottom: 12px; display: flex; gap: 10px;"><i data-lucide="check-circle-2" style="width: 18px; color: #15803d; flex-shrink: 0; margin-top: 4px;"></i> Tuyệt đối không tự ý tháo mở máy.</li>
+                        <li style="display: flex; gap: 10px;"><i data-lucide="check-circle-2" style="width: 18px; color: #15803d; flex-shrink: 0; margin-top: 4px;"></i> Luôn sử dụng hộp đựng khi di chuyển.</li>
+                    </ul>
                 </div>
 
-                <div onclick="openMeasureModal('do-phuong-vi-ta')" style="background: #f8fafc; padding: 20px; border-radius: 15px; border-left: 6px solid #dc2626; cursor: pointer; transition: 0.3s;">
-                    <h4 style="color: #dc2626; font-weight: 900; margin-bottom: 10px;">b. Đo PV & Góc tà mục tiêu (VD7)</h4>
-                    <p style="font-size: 15px; color: #334155;">Ấn <strong>Nhả - Giữ</strong> phím Phương vị. Trái là Phương vị, Phải là Độ tà (ε).</p>
-                    <div style="margin-top: 10px; font-weight: 800; color: #1e293b; background: #fff; padding: 5px 10px; border-radius: 5px; display: inline-block;">KQ: Am=29-41; ε=+ 0-51</div>
+                <div class="fragment" style="background: #fff1f2; padding: 25px; border-radius: 20px; border: 2px solid #fecaca; border-top: 8px solid #dc2626; box-shadow: 0 10px 20px rgba(220, 38, 38, 0.05); transform: translateY(-10px);">
+                    <div style="background: #dc2626; width: 45px; height: 45px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; color: #fff;">
+                        <i data-lucide="battery-warning"></i>
+                    </div>
+                    <h4 style="color: #991b1b; font-size: 19px; font-weight: 800; text-transform: uppercase; margin-bottom: 15px;">2. Quản lý nguồn điện</h4>
+                    <div style="background: #ffffff; padding: 15px; border-radius: 15px; border-left: 5px solid #dc2626;">
+                        <p style="margin: 0; color: #b91c1c; font-size: 17.5px; font-weight: 900; line-height: 1.5; text-transform: uppercase;">
+                            Bắt buộc tháo pin
+                        </p>
+                        <p style="margin-top: 5px; color: #475569; font-size: 15px; font-style: italic;">
+                            Ra khỏi thân máy trước khi đưa vào kho bảo quản lâu ngày.
+                        </p>
+                    </div>
                 </div>
 
-                <div onclick="openMeasureModal('do-pv-cl-2-muc-tieu')" style="background: #f8fafc; padding: 20px; border-radius: 15px; border-left: 6px solid #dc2626; cursor: pointer; transition: 0.3s;">
-                    <h4 style="color: #dc2626; font-weight: 900; margin-bottom: 10px;">c. Đo PV & CL giữa 2 mục tiêu (VD8)</h4>
-                    <p style="font-size: 15px; color: #334155;">Ngắm VC1 giữ PV -> Ấn nhả CL (hiện 1-P). Ngắm VC2 nhả PV.</p>
-                    <div style="margin-top: 10px; font-weight: 800; color: #1e293b; background: #fff; padding: 5px 10px; border-radius: 5px; display: inline-block;">KQ: Am=48-20, D=420m</div>
+                <div class="fragment" style="background: #f0fdf4; padding: 25px; border-radius: 20px; border: 1px solid #dcfce7; border-top: 8px solid #15803d;">
+                    <div style="background: #15803d; width: 45px; height: 45px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; color: #fff;">
+                        <i data-lucide="thermometer-snowflake"></i>
+                    </div>
+                    <h4 style="color: #14532d; font-size: 19px; font-weight: 800; text-transform: uppercase; margin-bottom: 15px;">3. Môi trường</h4>
+                    <ul style="margin: 0; padding-left: 10px; color: #166534; font-size: 16px; line-height: 1.8; list-style: none;">
+                        <li style="margin-bottom: 12px; display: flex; gap: 10px;"><i data-lucide="cloud-sun" style="width: 18px; flex-shrink: 0; margin-top: 4px;"></i> Bảo quản nơi khô ráo, tránh ẩm mốc cao.</li>
+                        <li style="margin-bottom: 12px; display: flex; gap: 10px;"><i data-lucide="sun-off" style="width: 18px; flex-shrink: 0; margin-top: 4px;"></i> Tránh ánh nắng trực tiếp vào thấu kính.</li>
+                        <li style="display: flex; gap: 10px;"><i data-lucide="shield-alert" style="width: 18px; flex-shrink: 0; margin-top: 4px;"></i> Hạn chế nơi có bức xạ điện tử mạnh.</li>
+                    </ul>
                 </div>
-
-                <div onclick="openMeasureModal('do-huong-kep')" style="background: #f8fafc; padding: 20px; border-radius: 15px; border-left: 6px solid #dc2626; cursor: pointer; transition: 0.3s;">
-                    <h4 style="color: #dc2626; font-weight: 900; margin-bottom: 10px;">d. Đo góc hướng & Góc kẹp (VD9)</h4>
-                    <p style="font-size: 15px; color: #334155;">Ngắm VC1 nhả-giữ PV -> Ấn nhả CL. Ngắm VC2 nhả PV.</p>
-                    <div style="margin-top: 10px; font-weight: 800; color: #1e293b; background: #fff; padding: 5px 10px; border-radius: 5px; display: inline-block;">KQ: β = 420; φ = 1-18</div>
-                </div>
-
             </div>
-        </div>
-    </div>
-</div>
-<div class="slide">
-    <div class="glass-card" style="border: 2px solid #cbd5e1; background: #ffffff;">
-        <div class="card-header" style="padding: 20px 40px; border-bottom: 2px solid #e2e8f0;">
-            <h2 class="slide-title" style="font-size: 28px; color: #15803d; font-weight: 900; margin: 0; text-transform: uppercase;">6. Bảo quản, giữ gìn</h2>
-        </div>
-        
-        <div class="card-body" style="padding: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;">
-            <div class="fragment">
-                <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 15px;">
-                    <li style="display: flex; gap: 15px; background: #f8fafc; padding: 15px; border-radius: 10px; border: 1px solid #e2e8f0;">
-                        <i data-lucide="shield-check" style="color: #15803d; flex-shrink: 0;"></i>
-                        <span style="font-size: 17px; color: #1e293b;">Lau chùi bảo quản máy đúng quy định, không tự ý tháo mở máy.</span>
-                    </li>
-                    <li style="display: flex; gap: 15px; background: #fef2f2; padding: 15px; border-radius: 10px; border: 1px solid #fca5a5;">
-                        <i data-lucide="battery-warning" style="color: #dc2626; flex-shrink: 0;"></i>
-                        <span style="font-size: 17px; color: #991b1b; font-weight: 800;">BẮT BUỘC: Tháo pin ra khỏi máy khi đưa vào kho bảo quản.</span>
-                    </li>
-                    <li style="display: flex; gap: 15px; background: #f8fafc; padding: 15px; border-radius: 10px; border: 1px solid #e2e8f0;">
-                        <i data-lucide="box" style="color: #15803d; flex-shrink: 0;"></i>
-                        <span style="font-size: 17px; color: #1e293b;">Vận chuyển phải cho máy vào hộp đựng chuyên dụng chống va đập.</span>
-                    </li>
-                    <li style="display: flex; gap: 15px; background: #f8fafc; padding: 15px; border-radius: 10px; border: 1px solid #e2e8f0;">
-                        <i data-lucide="thermometer-snowflake" style="color: #15803d; flex-shrink: 0;"></i>
-                        <span style="font-size: 17px; color: #1e293b;">Bảo quản nơi khô ráo, tránh độ ẩm và nhiệt độ quá cao.</span>
-                    </li>
-                </ul>
-            </div>
-            <div class="fragment" style="border: 8px solid #f1f5f9; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
-                <img src="data/vector_baoquan.png" style="width: 100%; display: block;" onerror="this.src='https://via.placeholder.com/600x400?text=Bảo+Quản+Khí+Tài'">
+
+            <div class="fragment" style="margin-top: 35px; display: flex; gap: 30px; align-items: center; background: #f1f5f9; padding: 20px; border-radius: 25px; border: 1px solid #e2e8f0;">
+                <div style="flex: 0.35; border-radius: 15px; overflow: hidden; border: 5px solid white; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+                    <img src="data/vector_baoquan.png" style="width: 100%; display: block;" onerror="this.src='https://via.placeholder.com/400x250?text=Bảo+Quản+Thực+Tế'">
+                </div>
+                <div style="flex: 0.65;">
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <i data-lucide="info" style="color: #fbbf24; fill: #fbbf24; width: 22px;"></i>
+                        <span style="font-weight: 900; color: #0f172a; font-size: 18px; letter-spacing: 0.5px;">GHI NHỚ CỦA GIẢNG VIÊN</span>
+                    </div>
+                    <p style="margin: 0; font-size: 17px; color: #334155; font-style: italic; line-height: 1.6; border-left: 4px solid #fbbf24; padding-left: 20px;">
+                        "Giữ gìn khí tài như giữ gìn con ngươi của mắt mình. Khí tài có bền, trinh sát mới tinh, pháo mới bắn trúng!"
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
         <div class="slide">
-            <div class="glass-card" style="align-items: center; justify-content: center; border-left: 15px solid var(--accent-secondary);">
-                <div class="card-body" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
-                    <i data-lucide="camera" style="width: 80px; height: 80px; color: var(--accent-secondary); margin-bottom: 25px;"></i>
-                    <h1 style="color: #111; font-weight: 900; margin-bottom: 20px; font-size: 50px;">PHẦN II: <span style="color: var(--accent-secondary)">CAMERA ẢNH NHIỆT JIM LR</span></h1>
-                </div>
+    <div class="glass-card" style="align-items: center; justify-content: center; border-left: 15px solid var(--accent-primary); position: relative; overflow: hidden;">
+        
+        <div style="position: absolute; width: 600px; height: 600px; border: 2px dashed var(--accent-primary); border-radius: 50%; opacity: 0.1; animation: rotate 20s linear infinite; z-index: 0;"></div>
+        <div style="position: absolute; width: 400px; height: 400px; border: 1px solid var(--accent-primary); border-radius: 50%; opacity: 0.1; z-index: 0;"></div>
+        
+        <div class="card-body" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; z-index: 1;">
+            <div style="filter: drop-shadow(0 0 15px var(--accent-primary)); margin-bottom: 25px;">
+                <i data-lucide="crosshair" style="width: 100px; height: 100px; color: var(--accent-primary);"></i>
             </div>
+            
+            <h1 style="color: #111; font-weight: 900; margin-bottom: 20px; font-size: 55px; text-transform: uppercase;">
+                 PHẦN II:<br><span style="color: var(--accent-primary)">CAMERA ẢNH NHIỆT JIM LR</span>
+            </h1>
         </div>
-
+    </div>
+</div>
+<div class="slide">
+    <div class="glass-card" style="align-items: center; justify-content: center; border-left: 15px solid var(--accent-primary); position: relative; overflow: hidden;">
+        
+        <div style="position: absolute; width: 600px; height: 600px; border: 2px dashed var(--accent-primary); border-radius: 50%; opacity: 0.1; animation: rotate 20s linear infinite; z-index: 0;"></div>
+        <div style="position: absolute; width: 400px; height: 400px; border: 1px solid var(--accent-primary); border-radius: 50%; opacity: 0.1; z-index: 0;"></div>
+        
+        <div class="card-body" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; z-index: 1;">
+            <div style="filter: drop-shadow(0 0 15px var(--accent-primary)); margin-bottom: 25px;">
+                <i data-lucide="crosshair" style="width: 100px; height: 100px; color: var(--accent-primary);"></i>
+            </div>
+            
+            <h1 style="color: #111; font-weight: 900; margin-bottom: 20px; font-size: 55px; text-transform: uppercase;">
+                 <br><span style="color: var(--accent-primary)">A. TÁC DỤNG, TÍNH NĂNG, ĐỒNG BỘ</span>
+            </h1>
+        </div>
+    </div>
+</div>
         <div class="slide">
     <div class="glass-card" style="border: 2px solid #e2e8f0; background: #ffffff;">
         <div class="card-header" style="padding: 30px 50px 10px 50px;">
@@ -1809,34 +1745,45 @@ function closeDistGateModal() {
 </div>
         <div class="slide">
             <div class="glass-card">
-                <div class="card-header"><h2 class="slide-title" style="color: var(--accent-secondary); border-bottom-color: var(--accent-secondary);">4. Cấu tạo</h2></div>
+                <div class="card-header"><h2 class="slide-title" style="color: var(--accent-secondary); border-bottom-color: var(--accent-secondary);">B. CẤU TẠO</h2></div>
                 <div class="card-body">
                     <div class="fragment content-split">
                         <div class="interactive-box img-box" style="border: 2px solid #ccc;">
                             <img src="data/jimlr_mat_truoc.png" onerror="this.src='https://via.placeholder.com/400x300?text=Mat+truoc'">
                             <div style="position: absolute; top: 15px; left: 15px; font-weight: 800; background: #111; color: #fff; padding: 5px 10px; border-radius: 6px; font-size: 14px;">Mặt trước</div>
-                            <div class="hotspot" style="top: 25%; left: 25%;">1<div class="tooltip">Kênh phát đo xa laze</div></div>
-                            <div class="hotspot" style="top: 25%; left: 75%;">3<div class="tooltip">Camera màu</div></div>
-                            <div class="hotspot" style="top: 65%; left: 50%;">5<div class="tooltip">Camera ảnh nhiệt</div></div>
+                            <div class="hotspot" style="top: 75%; left: 58%;">1<div class="tooltip">Kênh phát đo xa laze</div></div>
+                            <div class="hotspot" style="top: 85%; left: 52%;">2<div class="tooltip">Chỉ thị laze </div></div>
+                            <div class="hotspot" style="top: 70%; left: 52%;">3<div class="tooltip">Camera màu </div></div>
+                            <div class="hotspot" style="top: 75%; left: 42%;">4<div class="tooltip">Kênh nhận đo xa laze </div></div>
+                            <div class="hotspot" style="top: 75%; left: 30%;">5<div class="tooltip">Camera ảnh nhiệt</div></div>
                         </div>
                         <div class="interactive-box img-box" style="border: 2px solid #ccc;">
                             <img src="data/jimlr_mat_tren.png" onerror="this.src='https://via.placeholder.com/400x300?text=Mat+tren'">
                             <div style="position: absolute; top: 15px; left: 15px; font-weight: 800; background: #111; color: #fff; padding: 5px 10px; border-radius: 6px; font-size: 14px;">Mặt trên</div>
-                            <div class="hotspot" style="top: 50%; left: 25%;">1<div class="tooltip">4 phím nhấn điều khiển</div></div>
-                            <div class="hotspot" style="top: 45%; left: 50%;">2<div class="tooltip">Ăng ten GPS</div></div>
-                            <div class="hotspot" style="top: 85%; left: 50%;">6<div class="tooltip">Vành tiếp mắt quan sát</div></div>
+                            <div class="hotspot" style="top: 50%; left: 33%;">1<div class="tooltip">4 phím nhấn điều khiển</div></div>
+                            <div class="hotspot" style="top: 50%; left: 66%;">1<div class="tooltip">4 phím nhấn điều khiển</div></div>
+                            <div class="hotspot" style="top: 65%; left: 50%;">2<div class="tooltip">Ăng ten GPS</div></div>
+                            <div class="hotspot" style="top: 85%; left: 50%;">3<div class="tooltip">Nắp bảo vệ ống kính </div></div>
+                            <div class="hotspot" style="top: 50%; left: 25%;">4<div class="tooltip">Tay cầm </div></div>
+                            <div class="hotspot" style="top: 42%; left: 28%;">5<div class="tooltip">Phím đo laze </div></div>
+                            <div class="hotspot" style="top: 15%; left: 50%;">6<div class="tooltip">Vành tiếp mắt quan sát</div></div>                            
                         </div>
                         <div class="interactive-box img-box" style="border: 2px solid #ccc;">
                             <img src="data/jimlr_mat_sau.png" onerror="this.src='https://via.placeholder.com/400x300?text=Mat+sau'">
                             <div style="position: absolute; top: 15px; left: 15px; font-weight: 800; background: #111; color: #fff; padding: 5px 10px; border-radius: 6px; font-size: 14px;">Mặt sau</div>
-                            <div class="hotspot" style="top: 50%; left: 50%;">1<div class="tooltip">Cảm biến tự tắt màn hình</div></div>
-                            <div class="hotspot" style="top: 80%; left: 25%;">2<div class="tooltip">Zắc kết nối thiết bị ngoại vi</div></div>
+                            <div class="hotspot" style="top: 32%; left: 48%;">1<div class="tooltip">Cảm biến </div></div>
+                            <div class="hotspot" style="top: 65%; left: 72%;">2<div class="tooltip">Zắc kết nối với các thiết bị ngoại vi </div></div>
+                            <div class="hotspot" style="top: 63%; left: 62%;">3<div class="tooltip">Zắc kết nối có chức năng </div></div>
+                            <div class="hotspot" style="top: 35%; left: 55%;">4<div class="tooltip">Hai ống kính quan sát </div></div>
+                            <div class="hotspot" style="top: 35%; left: 35%;">4<div class="tooltip">Hai ống kính quan sát </div></div>
                         </div>
                         <div class="interactive-box img-box" style="border: 2px solid #ccc;">
                             <img src="data/jimlr_mat_duoi.png" onerror="this.src='https://via.placeholder.com/400x300?text=Mat+duoi'">
                             <div style="position: absolute; top: 15px; left: 15px; font-weight: 800; background: #111; color: #fff; padding: 5px 10px; border-radius: 6px; font-size: 14px;">Mặt dưới</div>
-                            <div class="hotspot" style="top: 25%; left: 50%;">1<div class="tooltip">Phím bật/tắt nguồn</div></div>
+                            <div class="hotspot" style="top: 28%; left: 55%;">1<div class="tooltip">Phím bật/tắt nguồn</div></div>
                             <div class="hotspot" style="top: 55%; left: 50%;">2<div class="tooltip">Giá lắp pin</div></div>
+                            <div class="hotspot" style="top: 25%; left: 35%;">3<div class="tooltip">Giá kết nối với chân máy </div></div>
+                            
                         </div>
                     </div>
                 </div>
@@ -1846,7 +1793,7 @@ function closeDistGateModal() {
         <div class="slide">
     <div class="glass-card" style="border: 1px solid #ddd; background: #fff;">
         <div class="card-header" style="padding: 20px 40px; border-bottom: 2px solid #eee;">
-            <h2 class="slide-title" style="font-size: 26px; color: #334155; font-weight: 800; margin: 0; text-transform: uppercase;">4. Cấu tạo (Tiếp theo)</h2>
+            <h2 class="slide-title" style="font-size: 26px; color: #334155; font-weight: 800; margin: 0; text-transform: uppercase;">B. CẤU TẠO (Tiếp theo)</h2>
         </div>
         
         <div class="card-body" style="padding: 30px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px; height: 550px;">
@@ -1857,10 +1804,10 @@ function closeDistGateModal() {
                 <div style="flex: 1; position: relative; display: flex; align-items: center; justify-content: center;">
                     <img src="data/jimlr_chan_may.png" style="max-width: 85%; max-height: 85%;" onerror="this.src='https://via.placeholder.com/400?text=Tripod'">
                     
-                    <div class="dot-num red" style="top: 60%; left: 30%;" data-txt="1. Giá 3 chân & Khóa hãm">1</div>
-                    <div class="dot-num red" style="top: 25%; left: 50%;" data-txt="2. Núm thăng bằng bọt nước">2</div>
-                    <div class="dot-num red" style="top: 40%; left: 75%;" data-txt="3. Tay cầm điều khiển">3</div>
-                    <div class="dot-num red" style="top: 15%; left: 45%;" data-txt="4. Ổ trục & Giá liên kết">4</div>
+                    <div class="dot-num red" style="top: 60%; left: 40%;" data-txt="1. Giá 3 chân, có thể thay đổi được nhờ khóa hãm, mở">1</div>
+                    <div class="dot-num red" style="top: 35%; left: 50%;" data-txt="2. Núm thăng bằng bọt nước">2</div>
+                    <div class="dot-num red" style="top: 50%; left: 55%;" data-txt="3. Tay cầm điều khiển">3</div>
+                    <div class="dot-num red" style="top: 15%; left: 50%;" data-txt="4. Ổ trục và giá liên kết với thân máy">4</div>
                 </div>
                 <div class="label-box" style="background: #f1f5f9; padding: 12px; text-align: center; min-height: 45px; font-weight: 700; color: #475569;">Di chuột vào số để xem</div>
             </div>
@@ -1871,10 +1818,10 @@ function closeDistGateModal() {
                 <div style="flex: 1; position: relative; display: flex; align-items: center; justify-content: center;">
                     <img src="data/jimlr_phu_tung.png" style="max-width: 85%; max-height: 85%;" onerror="this.src='https://via.placeholder.com/400?text=Accessories'">
                     
-                    <div class="dot-num blue" style="top: 30%; left: 35%;" data-txt="1. Hộp đựng máy chuyên dụng">1</div>
-                    <div class="dot-num blue" style="top: 65%; left: 40%;" data-txt="2. Cáp trút dữ liệu">2</div>
-                    <div class="dot-num blue" style="top: 55%; left: 70%;" data-txt="3. Pin nguồn Lithium">3</div>
-                    <div class="dot-num blue" style="top: 80%; left: 50%;" data-txt="4. Túi đựng chân máy">4</div>
+                    <div class="dot-num blue" style="top: 35%; left: 35%;" data-txt="1. Hộp đựng máy chuyên dụng">1</div>
+                    <div class="dot-num blue" style="top: 65%; left: 43%;" data-txt="2. Cáp trút dữ liệu">2</div>
+                    <div class="dot-num blue" style="top: 52%; left: 30%;" data-txt="3. Pin nguồn Lithium">3</div>
+                    <div class="dot-num blue" style="top: 50%; left: 55%;" data-txt="4. Túi đựng chân máy">4</div>
                 </div>
                 <div class="label-box" style="background: #f1f5f9; padding: 12px; text-align: center; min-height: 45px; font-weight: 700; color: #475569;">Di chuột vào số để xem</div>
             </div>
@@ -1923,7 +1870,7 @@ function closeDistGateModal() {
         <div class="slide">
     <div class="glass-card" style="border: 1px solid #cbd5e1; background: #ffffff; position: relative;">
         <div class="card-header" style="padding: 20px 40px; border-bottom: 2px solid #e2e8f0;">
-            <h2 class="slide-title" style="font-size: 28px; color: #dc2626; font-weight: 900; margin: 0; text-transform: uppercase;">5. Sử dụng Camera JIM LR</h2>
+            <h2 class="slide-title" style="font-size: 28px; color: #dc2626; font-weight: 900; margin: 0; text-transform: uppercase;">C. SỬ DỤNG</h2>
         </div>
         
         <div class="card-body" style="padding: 30px 40px; position: relative; height: 550px;">
@@ -2004,7 +1951,7 @@ function closeDistGateModal() {
 <div class="slide">
     <div class="glass-card" style="border: 1px solid #cbd5e1; background: #ffffff; position: relative;">
         <div class="card-header" style="padding: 20px 40px; border-bottom: 2px solid #e2e8f0;">
-            <h2 class="slide-title" style="font-size: 28px; color: #dc2626; font-weight: 900; margin: 0; text-transform: uppercase;">5. Sử dụng Camera JIM LR (Cài đặt)</h2>
+            <h2 class="slide-title" style="font-size: 28px; color: #dc2626; font-weight: 900; margin: 0; text-transform: uppercase;">C. SỬ DỤNG Camera JIM LR (Cài đặt)</h2>
         </div>
         
         <div class="card-body" style="padding: 30px 40px; height: 560px; position: relative;">
@@ -2054,7 +2001,7 @@ function closeDistGateModal() {
 <div class="slide">
     <div class="glass-card" style="border: 1px solid #cbd5e1; background: #ffffff; position: relative;">
         <div class="card-header" style="padding: 20px 40px; border-bottom: 2px solid #e2e8f0;">
-            <h2 class="slide-title" style="font-size: 28px; color: #dc2626; font-weight: 900; margin: 0; text-transform: uppercase;">5. Sử dụng Camera JIM LR (Quan sát)</h2>
+            <h2 class="slide-title" style="font-size: 28px; color: #dc2626; font-weight: 900; margin: 0; text-transform: uppercase;">C. SỬ DỤNG Camera JIM LR (Quan sát)</h2>
         </div>
         
         <div class="card-body" style="padding: 30px 40px; height: 550px; position: relative;">
@@ -2095,7 +2042,7 @@ function closeDistGateModal() {
 <div class="slide">
     <div class="glass-card" style="border: 2px solid #cbd5e1; background: #ffffff;">
         <div class="card-header" style="padding: 20px 40px; border-bottom: 2px solid #e2e8f0;">
-            <h2 class="slide-title" style="font-size: 28px; color: #dc2626; font-weight: 900; margin: 0; text-transform: uppercase;">5. Sử dụng Camera JIM LR</h2>
+            <h2 class="slide-title" style="font-size: 28px; color: #dc2626; font-weight: 900; margin: 0; text-transform: uppercase;">C. SỬ DỤNG Camera JIM LR</h2>
         </div>
         
         <div class="card-body" style="padding: 30px 40px;">
@@ -2167,7 +2114,7 @@ function closeDistGateModal() {
         <div class="slide">
     <div class="glass-card" style="border: 1px solid #cbd5e1; background: #ffffff;">
         <div class="card-header" style="padding: 20px 40px; border-bottom: 2px solid #e2e8f0;">
-            <h2 class="slide-title" style="font-size: 28px; color: #1e293b; font-weight: 900; margin: 0; text-transform: uppercase;">6. Bảo quản, giữ gìn khí tài</h2>
+            <h2 class="slide-title" style="font-size: 28px; color: #1e293b; font-weight: 900; margin: 0; text-transform: uppercase;">D. Bảo quản, giữ gìn</h2>
         </div>
         
         <div class="card-body" style="padding: 30px 40px;">
@@ -2362,23 +2309,71 @@ function closeDistGateModal() {
     <button class="nav-btn secondary" onclick="prevAction()" style="height: 50px; width: 50px; border-radius: 50%; padding: 0; justify-content: center;"><i data-lucide="chevron-left"></i></button>
     <button class="nav-btn" onclick="nextAction()" style="height: 50px; padding: 0 25px; border-radius: 25px;">Tiếp tục <i data-lucide="chevron-right"></i></button>
 </div>
-
+<div id="measure-modal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 23, 42, 0.9); z-index: 7000; display: none; align-items: center; justify-content: center; backdrop-filter: blur(8px); padding: 20px;">
+    <div style="background: white; width: 95%; max-width: 900px; border-radius: 20px; position: relative; overflow: hidden; box-shadow: 0 25px 50px rgba(0,0,0,0.5); display: flex; flex-direction: column;">
+        <button onclick="closeMeasureModal()" style="position: absolute; top: 15px; right: 15px; background: #f1f5f9; border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; z-index: 100; display: flex; align-items: center; justify-content: center;">
+            <i data-lucide="x" style="color: #64748b; width: 24px;"></i>
+        </button>
+        
+        <div style="padding: 30px; text-align: center; overflow-y: auto;">
+            <h3 id="measure-title" style="margin-bottom: 20px; color: #15803d; font-size: 24px; font-weight: 900; text-transform: uppercase;"></h3>
+            <div style="background: #000; border-radius: 12px; padding: 10px; display: inline-block; width: 100%;">
+                <img id="measure-img-target" src="" style="width: 100%; max-height: 60vh; object-fit: contain; border-radius: 8px;">
+            </div>
+            <p id="measure-desc" style="margin-top: 20px; font-size: 18px; color: #334155; font-weight: 600; line-height: 1.6;"></p>
+        </div>
+    </div>
+</div>
+<div id="setup-modal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 23, 42, 0.95); z-index: 9999; display: none; align-items: center; justify-content: center; backdrop-filter: blur(10px);">
+    <div style="background: white; width: 90%; height: 85%; border-radius: 24px; position: relative; display: flex; overflow: hidden; box-shadow: 0 25px 50px rgba(0,0,0,0.5);">
+        <button onclick="closeSetupModal()" style="position: absolute; top: 20px; right: 20px; background: #f1f5f9; border: none; width: 45px; height: 45px; border-radius: 50%; cursor: pointer; z-index: 10001; display: flex; align-items: center; justify-content: center;">
+            <i data-lucide="x" style="color: #64748b; width: 24px;"></i>
+        </button>
+        <div id="setup-modal-content" style="flex: 1; display: flex; width: 100%;"></div>
+    </div>
+</div>
 <script>
+
 // ==========================================
-// 1. BIẾN TOÀN CỤC & AUDIO
+// 1. BIẾN TOÀN CỤC & DANH SÁCH AUDIO CHUẨN
 // ==========================================
+const audioFiles = {
+    slides: {
+        1: 'audio/Slide1.mp3',
+        3: 'audio/Slide3.mp3',
+        4: 'audio/Slide4.mp3',
+        5: 'audio/Slide5.mp3',
+        6: 'audio/Slide6.mp3',
+        7: 'audio/Slide7.mp3',
+        8: 'audio/Slide8.mp3',
+        9: 'audio/Slide9.mp3',
+        10: 'audio/Slide10.mp3',
+        11: 'audio/Slide11.mp3',
+        12: 'audio/Slide12.mp3',
+        13: 'audio/Slide13.mp3',
+        14: 'audio/Slide14.mp3',
+        15: 'audio/Slide15.mp3',
+        16: 'audio/Slide16.mp3',
+        17: 'audio/Slide17.mp3',
+        18: 'audio/Slide18.mp3',
+        19: 'audio/Slide19.mp3',
+        20: 'audio/Slide20.mp3',
+        21: 'audio/Slide21.mp3',
+        22: 'audio/Slide22.mp3',
+        23: 'audio/Slide23.mp3'
+    }
+};
+
 let currentSlide = 0;
 const slides = document.querySelectorAll('.slide');
 const totalSlides = slides.length;
-let currentAudio = new Audio();
+let currentAudio = new Audio(); 
 
 function formatTime(secs) {
     let m = Math.floor(secs / 60);
     let s = Math.floor(secs % 60);
     return (m < 10 ? "0" + m : m) + ":" + (s < 10 ? "0" + s : s);
 }
-
-// Cập nhật thanh thời gian và tự ngắt khi hết bài
 currentAudio.ontimeupdate = () => {
     const prog = document.getElementById('audio-progress');
     const curr = document.getElementById('current-time');
@@ -2388,8 +2383,6 @@ currentAudio.ontimeupdate = () => {
         curr.innerText = formatTime(currentAudio.currentTime);
         document.getElementById('duration-time').innerText = formatTime(currentAudio.duration);
     }
-    
-    // Đọc xong: Trả icon loa về trạng thái tắt
     if(currentAudio.currentTime === currentAudio.duration) {
         const mainIcon = document.getElementById('tts-icon');
         const mainBtn = document.getElementById('tts-toggle-btn');
@@ -2406,8 +2399,6 @@ const progressEl = document.getElementById('audio-progress');
 if(progressEl) {
     progressEl.oninput = function() { currentAudio.currentTime = this.value; };
 }
-
-// Bật/tắt Audio chuẩn xác (không bị lặp lệnh)
 function togglePlayPause(event) {
     if (event) event.stopPropagation();
     const mainIcon = document.getElementById('tts-icon');
@@ -2420,7 +2411,7 @@ function togglePlayPause(event) {
         mainBtn.classList.add('audio-active');
         mainBtn.style.border = "3px solid var(--accent-primary)";
         currentAudio.play().catch(e => {
-            console.warn("Lưu ý: Chưa có file audio tại: " + currentAudio.src);
+            console.warn("Chưa có file audio hoặc bị chặn auto-play.");
         });
     } else { 
         currentAudio.pause(); 
@@ -2430,37 +2421,46 @@ function togglePlayPause(event) {
     }
     lucide.createIcons();
 }
-
-// ==========================================
-// 2. LOGIC ĐIỀU HƯỚNG SLIDE & FRAGMENT
-// ==========================================
 function showSlide(n) {
     let movingForward = n > currentSlide;
-    
-    // Chuyển slide: Tự ngắt Audio cũ, nạp file mới, tắt icon loa
-    currentAudio.pause();
-    currentAudio.src = `audio/tts-${(n + totalSlides) % totalSlides}.mp3`;
-    currentAudio.currentTime = 0;
+    const nextIndex = (n + totalSlides) % totalSlides;
+    currentAudio.pause();    
+    currentAudio.currentTime = 0; 
     
     const mainIcon = document.getElementById('tts-icon');
     const mainBtn = document.getElementById('tts-toggle-btn');
-    if(mainIcon) mainIcon.setAttribute('data-lucide', 'volume-x');
-    if(mainBtn) {
-        mainBtn.classList.remove('audio-active');
-        mainBtn.style.border = "2px solid #ddd";
+    if (audioFiles.slides[nextIndex]) {
+        currentAudio.src = audioFiles.slides[nextIndex];
+        currentAudio.play().then(() => {
+            if(mainIcon) mainIcon.setAttribute('data-lucide', 'volume-2');
+            if(mainBtn) {
+                mainBtn.classList.add('audio-active');
+                mainBtn.style.border = "3px solid var(--accent-primary)";
+            }
+            lucide.createIcons();
+        }).catch(e => {
+            if(mainIcon) mainIcon.setAttribute('data-lucide', 'volume-x');
+            if(mainBtn) {
+                mainBtn.classList.remove('audio-active');
+                mainBtn.style.border = "2px solid #ddd";
+            }
+            lucide.createIcons();
+        });
+    } else {
+        if(mainIcon) mainIcon.setAttribute('data-lucide', 'volume-x');
+        if(mainBtn) {
+            mainBtn.classList.remove('audio-active');
+            mainBtn.style.border = "2px solid #ddd";
+        }
+        lucide.createIcons();
     }
-    
     slides[currentSlide].classList.remove('active');
-    currentSlide = (n + totalSlides) % totalSlides;
+    currentSlide = nextIndex;
     slides[currentSlide].classList.add('active');
-    
     const cardBody = slides[currentSlide].querySelector('.card-body');
     if(cardBody) cardBody.scrollTop = 0;
-    
     const counter = document.getElementById('slideCounter');
     if (counter) counter.textContent = `${currentSlide + 1} / ${totalSlides}`;
-    
-    // Cập nhật menu trái
     let activeMenuSlide = currentSlide;
     if(currentSlide === 1) activeMenuSlide = 2; 
     if(currentSlide === 10) activeMenuSlide = 11;
@@ -2476,27 +2476,20 @@ function showSlide(n) {
     });
     
     lucide.createIcons(); 
-    const activeSlide = slides[currentSlide]; // currentSlide là biến vị trí hiện tại
+    const activeSlide = slides[currentSlide]; 
     const trigger = activeSlide.querySelector('.auto-run-trigger');
-    
     if (trigger) {
-        // Tìm tất cả các card trong slide này
         const cards = activeSlide.querySelectorAll('.jim-feature-card');
         cards.forEach((card, index) => {
-            // Reset về trạng thái ẩn trước khi chạy (để mỗi lần quay lại slide nó lại chạy tiếp)
             card.style.opacity = '0';
             card.style.transform = 'translateY(20px)';
-            
-            // Chạy hiệu ứng nối đuôi
             setTimeout(() => {
                 card.style.opacity = '1';
                 card.style.transform = 'translateY(0)';
-            }, index * 300); // 0.3 giây hiện 1 cái
+            }, index * 300);
         });
     }
 }
-
-// Nút "Tiếp tục" ở góc phải
 function nextAction() { showSlide(currentSlide + 1); }
 
 function prevAction() {
@@ -2505,8 +2498,6 @@ function prevAction() {
     if (visibleFragments.length > 0) visibleFragments[visibleFragments.length - 1].classList.remove('visible');
     else showSlide(currentSlide - 1);
 }
-
-// Hàm hiện nội dung (Fragment) khi bấm vào màn hình
 function revealNextFragment() {
     const fragments = slides[currentSlide].querySelectorAll('.fragment');
     const hiddenFragments = Array.from(fragments).filter(f => !f.classList.contains('visible'));
@@ -2517,9 +2508,7 @@ function revealNextFragment() {
     return false;
 }
 
-// Lệnh Click chuột hiện chữ
 document.addEventListener('mousedown', (e) => {
-    // Nếu bấm trúng các nút điều khiển thì bỏ qua, không hiện chữ
     if (e.target.closest('button') || e.target.closest('.menu-item') || e.target.closest('#sidebar') || 
         e.target.closest('#audio-player-mini') || e.target.closest('#lecturer-box') || 
         e.target.closest('.td-dot') || e.target.closest('.hotspot')) {
@@ -2537,17 +2526,13 @@ function toggleSidebar() {
     if(document.getElementById('sidebar')) document.getElementById('sidebar').classList.toggle('open'); 
     if(document.getElementById('overlay')) document.getElementById('overlay').classList.toggle('active'); 
 }
-
-// ==========================================
-// 3. TAB ĐỒNG BỘ MÁY ĐO XA VECTOR 21
-// ==========================================
 function showDetails(type, el) {
     const display = document.getElementById('content-display');
     if(!display) return;
     const data = {
-        1: { title: "1. THÂN MÁY", img: "data/vector21_tổng_quan.png", text: "Cấu tạo chính của máy đo xa Laser Vector 21 (23). Chứa bộ vi xử lý và hệ thống thấu kính quang học. Bao gồm các núm điều khiển đo cự ly, phương vị ở mặt trên và các cổng kết nối dữ liệu, khoang chứa pin nguồn ở mặt dưới." },
-        2: { title: "2. CHÂN MÁY", img: "data/vector_chan_may.png", text: "Thiết bị hỗ trợ cố định và giữ thăng bằng khí tài. Cấu tạo gồm: Khóa hãm tà, Ổ kết nối với thân máy, Bọt nước thăng bằng và Khóa hãm hướng. Giúp đảm bảo độ ổn định tuyệt đối khi thực hiện các phép đo cự ly và góc tầm xa." },
-        3: { title: "3. HỘP ĐỰNG & PHỤ TÙNG", img: "data/vector_phu_tung.png", text: "Đảm bảo tính đồng bộ và bảo quản khí tài. Bao gồm: Túi đựng bằng nhựa cứng chống va đập (hộp đựng cứng), Pin nguồn chuyên dụng, Cáp nối truyền trút dữ liệu và Sách hướng dẫn sử dụng thiết bị." }
+        1: { title: "THÔNG TIN CHI TIẾT", img: "data/thanmay.png", text: "Cấu tạo chính của máy đo xa Laser Vector 21 (23). Chứa bộ vi xử lý và hệ thống thấu kính quang học. Bao gồm các núm điều khiển đo cự ly, phương vị ở mặt trên và các cổng kết nối dữ liệu, khoang chứa pin nguồn ở mặt dưới." },
+        2: { title: "THÔNG TIN CHI TIẾT", img: "data/chanmay.png", text: "Thiết bị hỗ trợ cố định và giữ thăng bằng khí tài. Cấu tạo gồm: Khóa hãm tà, Ổ kết nối với thân máy, Bọt nước thăng bằng và Khóa hãm hướng. Giúp đảm bảo độ ổn định tuyệt đối khi thực hiện các phép đo cự ly và góc tầm xa." },
+        3: { title: "THÔNG TIN CHI TIẾT", img: "data/hopdung.png", text: "Đảm bảo tính đồng bộ và bảo quản khí tài. Bao gồm: Túi đựng bằng nhựa cứng chống va đập (hộp đựng cứng), Pin nguồn chuyên dụng, Cáp nối truyền trút dữ liệu và Sách hướng dẫn sử dụng thiết bị." }
     };
     display.style.opacity = '0';
     setTimeout(() => {
@@ -2564,13 +2549,8 @@ function showDetails(type, el) {
     });
     el.style.borderLeftColor = "#15803d"; el.style.background = "#f8fafc"; el.style.color = "#15803d"; el.querySelector('h4').style.fontWeight = "800";
 }
-
-// ==========================================
-// 4. KÉO THẢ VIDEO GIẢNG VIÊN
-// ==========================================
 const dragBox = document.getElementById("lecturer-box");
 let isDragging = false, currentX, currentY, initialX, initialY, xOffset = 0, yOffset = 0;
-
 if (dragBox) {
     dragBox.addEventListener("mousedown", dragStart); document.addEventListener("mousemove", drag); document.addEventListener("mouseup", dragEnd);
     dragBox.addEventListener("touchstart", dragStart, {passive: false}); document.addEventListener("touchmove", drag, {passive: false}); document.addEventListener("touchend", dragEnd);
@@ -2591,16 +2571,11 @@ function drag(e) {
     }
 }
 function dragEnd() { isDragging = false; }
-
-// ==========================================
-// 5. KHỞI TẠO BÀI GIẢNG 
-// ==========================================
 document.addEventListener('keydown', (e) => {
     if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); revealNextFragment(); }
     if (e.key === 'ArrowRight') { e.preventDefault(); nextAction(); }
     if (e.key === 'ArrowLeft') { e.preventDefault(); prevAction(); }
 });
-
 document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
     slides.forEach((s, i) => s.classList.toggle('active', i === 0));
@@ -2609,47 +2584,35 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const initialFragments = slides[0].querySelectorAll('.fragment');
     initialFragments.forEach(f => f.classList.remove('visible'));
-
-    // Sẵn sàng audio cho slide đầu tiên
     currentAudio.src = `audio/tts-0.mp3`;
 });
-// ============================================================
-// KHỐI 1: XỬ LÝ TÁC DỤNG VECTOR 21 (MÀU XANH)
-// ============================================================
 let currentTacDungIdx = 0;
 const tacDungImages = [
-    { src: "data/vector21_tổng_quan.png", label: "ẢNH 1/3" },
-    { src: "data/vector21_do_cu_ly.png", label: "ẢNH 2/3" },
-    { src: "data/vector21_do_toa_do.png", label: "ẢNH 3/3" }
+    { src: "data/quansat.png", label: "ẢNH 1/3" },
+    { src: "data/dogoc.png", label: "ẢNH 2/3" },
+    { src: "data/dotoado.png", label: "ẢNH 3/3" }
 ];
-
 function changeTacDungImg(idx, el) {
     currentTacDungIdx = idx;
     updateTacDungUI(el);
 }
-
 function stepTacDungImg(step) {
     currentTacDungIdx = (currentTacDungIdx + step + tacDungImages.length) % tacDungImages.length;
     const cards = document.querySelectorAll('.td-action-card');
     updateTacDungUI(cards[currentTacDungIdx]);
 }
-
 function updateTacDungUI(activeEl) {
     const imgEl = document.getElementById('tacdung-img');
     const labelEl = document.getElementById('td-img-label');
     const dots = document.querySelectorAll('.td-dot');
-    const cards = document.querySelectorAll('.td-action-card');
-    
+    const cards = document.querySelectorAll('.td-action-card');   
     if(!imgEl || !activeEl) return;
-
     imgEl.style.opacity = '0';
     setTimeout(() => {
         imgEl.src = tacDungImages[currentTacDungIdx].src;
         if(labelEl) labelEl.innerText = tacDungImages[currentTacDungIdx].label;
         imgEl.style.opacity = '1';
     }, 150);
-    
-    // Hiệu ứng sáng đèn cho Vector
     cards.forEach(card => {
         card.style.background = "#f8fafc";
         card.style.borderLeftColor = "#64748b";
@@ -2658,15 +2621,10 @@ function updateTacDungUI(activeEl) {
     activeEl.style.background = "#f0fdf4"; // Xanh nhạt
     activeEl.style.borderLeftColor = "#15803d"; // Xanh đậm
     if(activeEl.querySelector('i')) activeEl.querySelector('i').style.color = "#15803d";
-    
     dots.forEach((dot, i) => {
         dot.style.background = (i === currentTacDungIdx) ? "#15803d" : "#cbd5e1";
     });
 }
-
-// ============================================================
-// KHỐI 2: XỬ LÝ TÁC DỤNG JIM LR (MÀU ĐỎ)
-// ============================================================
 let currentJimIdx = 0;
 const jimImages = [
     { src: "data/jimlr_quan_sat.png", label: "QUAN SÁT MỤC TIÊU" },
@@ -2674,34 +2632,27 @@ const jimImages = [
     { src: "data/jimlr_chi_thi.png", label: "CHỈ THỊ LAZE" },
     { src: "data/jimlr_ket_noi.png", label: "KẾT NỐI DỮ LIỆU" }
 ];
-
 function changeJimImg(idx, el) {
     currentJimIdx = idx;
     updateJimUI(el);
 }
-
 function stepJimImg(step) {
     currentJimIdx = (currentJimIdx + step + jimImages.length) % jimImages.length;
     const cards = document.querySelectorAll('.jim-action-card');
     updateJimUI(cards[currentJimIdx]);
 }
-
 function updateJimUI(activeEl) {
     const imgEl = document.getElementById('jim-td-img');
     const labelEl = document.getElementById('jim-img-label');
     const dots = document.querySelectorAll('.jim-dot');
     const cards = document.querySelectorAll('.jim-action-card');
-    
     if(!imgEl || !activeEl) return;
-
     imgEl.style.opacity = '0';
     setTimeout(() => {
         imgEl.src = jimImages[currentJimIdx].src;
         if(labelEl) labelEl.innerText = jimImages[currentJimIdx].label;
         imgEl.style.opacity = '1';
     }, 150);
-    
-    // Hiệu ứng sáng đèn cho JIM LR
     cards.forEach(card => {
         card.style.background = "#f8fafc";
         card.style.borderLeftColor = "#64748b";
@@ -2715,10 +2666,6 @@ function updateJimUI(activeEl) {
         dot.style.background = (i === currentJimIdx) ? "#dc2626" : "#cbd5e1";
     });
 }
-
-// ============================================================
-// KHỐI 3: XỬ LÝ TAB CẤU TẠO CHI TIẾT (JIM LR)
-// ============================================================
 function showJimDetails(type, el) {
     const display = document.getElementById('jim-content-display');
     const data = {
@@ -2726,18 +2673,14 @@ function showJimDetails(type, el) {
         2: { title: "2. CHÂN GÁ MÁY", img: "data/jimlr_chan_may.png", text: "Bao gồm giá 3 chân có thể thay đổi chiều cao và cụm chân gá xoay thăng bằng. Thiết kế có núm thăng bằng bọt nước, tay cầm điều khiển và ổ trục giá liên kết chắc chắn với thân máy." },
         3: { title: "3. PHỤ TÙNG ĐỒNG BỘ", img: "data/jimlr_phu_tung.png", text: "Đảm bảo khả năng cơ động và trút dữ liệu. Gồm: Hộp đựng máy chuyên dụng, cáp trút dữ liệu, các cục pin nguồn và túi đựng chân máy để hành quân mang vác." }
     };
-
     if(!display) return;
     display.style.opacity = '0';
-
     setTimeout(() => {
         document.getElementById('jim-detail-img').src = data[type].img;
         document.getElementById('jim-detail-title').innerText = data[type].title;
         document.getElementById('jim-detail-text').innerHTML = data[type].text;
         display.style.opacity = '1';
     }, 200);
-
-    // Sáng đèn cho menu cấu tạo
     document.querySelectorAll('.jim-db-item').forEach(item => {
         item.style.borderLeftColor = "transparent";
         item.style.background = "transparent";
@@ -2757,7 +2700,6 @@ function showJimVideo() {
         if(v) v.play().catch(e => {}); 
     }
 }
-
 function closeJimVideo() {
     const player = document.getElementById('jim-video-player');
     const v = document.getElementById('jim-v-element');
@@ -2773,25 +2715,287 @@ function expandJimContent(type, caption) {
     const viewer = document.getElementById('jim-overlay-viewer');
     const img = document.getElementById('jim-expanded-img');
     const cap = document.getElementById('jim-expanded-cap');
-    
-    // Kho dữ liệu ảnh
     const jimAssetMap = {
         'config': 'data/jim_config_screen.png',
         'gps': 'data/jim_gps_vn2000.png',
         'control': 'data/jim_control_demo.png',
         'fusion': 'data/jim_fusion_modes.png'
     };
-
     if(viewer && img) {
         img.src = jimAssetMap[type] || 'https://via.placeholder.com/800x600?text=Chưa+Có+Ảnh+Minh+Họa';
         cap.innerText = caption;
         viewer.style.display = 'flex';
     }
 }
-
 function closeJimOverlay() {
     const viewer = document.getElementById('jim-overlay-viewer');
     if(viewer) viewer.style.display = 'none';
+}
+function openMeasureModal(type) {
+    const modal = document.getElementById('measure-modal');
+    const img = document.getElementById('measure-img-target');
+    const title = document.getElementById('measure-title');
+    const desc = document.getElementById('measure-desc');
+    const measureData = {
+        'do-cu-ly-nghieng': {
+            title: 'a) Đo cự ly nghiêng',
+            img: 'data/VD1_nghieng.png',
+            desc: 'VD1: VC2 nhà vàng Khu A, đo cự ly nghiêng.\n\nĐỘNG TÁC:\n1. Đưa vòng ngắm vào điểm đo, giữ máy chắc chắn.\n2. Nhấn giữ phím đo cự ly (xuất hiện ô vuông đỏ).\n3. Nhả núm đo và đọc kết quả hiển thị.\n\nKẾT QUẢ: 1191 m'
+        },
+        'do-hon-hop': {
+            title: 'c) Đo Phương vị & Cự ly',
+            img: 'data/VD2_hon_hop.png',
+            desc: 'VD2: Tiếp VD1, đo báo cả Phương vị và Cự ly.\n\nĐỘNG TÁC:\n1. Đưa vòng ngắm vào điểm đo, giữ máy chắc chắn.\n2. Nhấn giữ đồng thời phím cự ly và phương vị.\n3. Nhả 2 núm; đọc PV (trái) và Cự ly (phải).\n\nKẾT QUẢ: Am = 29-41; D = 1191 m'
+        },
+        'do-ngang-chenh-cao': {
+            title: 'd) Đo CL ngang & Chênh cao',
+            img: 'data/VD3_ngang_chenh_cao.png',
+            desc: 'VD3: Tiếp VD1, đo cự ly ngang và chênh cao.\n\nĐỘNG TÁC:\n1. Đưa vòng ngắm vào điểm đo, giữ máy chắc chắn.\n2. Nhấn nhả và nhấn giữ phím đo cự ly.\n3. Nhả núm; đọc CL ngang (trái) và chênh cao (phải).\n\nKẾT QUẢ: D = 1191m; ∆h = +51m'
+        },
+        'do-giua-hai-muc-tieu': {
+            title: 'e) Đo khoảng cách giữa 2 vật',
+            img: 'data/VD4_giua_hai_muc_tieu.png',
+            desc: 'VD4: VC1 Nhà vàng; VC2 Nhà cao tầng, đo CL giữa 2 VC.\n\nĐỘNG TÁC:\n1. Ngắm VC1, nhấn giữ phím đo cự ly.\n2. Ấn nhả phím phương vị (xuất hiện “1-P”).\n3. Ngắm VC2, nhả núm cự ly và đọc kết quả.\n\nKẾT QUẢ: D = 420m'
+        },
+        'do-cl-delta-h-2-vc': {
+            title: 'f) Đo khoảng cách & chênh cao giữa 2 điểm',
+            img: 'data/culitoithieu.png', // Thay bằng ảnh VD5 của đồng chí
+            desc: 'VD5: Tiếp VD4, đo cả cự ly ngang và độ chênh cao.\n\nĐỘNG TÁC:\n1. Ngắm VC1, nhấn Nhả - Giữ phím Cự ly (hiện ô vuông đỏ).\n2. Ấn nhả phím Phương vị (hiện “1-P”).\n3. Ngắm VC2, nhả núm Cự ly và đọc kết quả.\n\nKẾT QUẢ: D = 420m; ∆h = +5m'
+        },
+        'do-phuong-vi': {
+            title: 'a) Đo góc phương vị',
+            img: 'data/vd5_phuong_vi.png',
+            desc: 'VD5: Ngắm mục tiêu, đo phương vị từ tính.\n\nĐỘNG TÁC:\n1. Đưa vòng ngắm vào điểm đo, giữ máy chắc chắn.\n2. Nhấn giữ phím Phương vị (ô vuông đỏ hiện lên).\n3. Nhả núm và đọc kết quả phương vị.\n\nKẾT QUẢ: Am = 29-41'
+        },
+        'do-phuong-vi-ta': {
+            title: 'b) Đo PV & Góc tà mục tiêu',
+            img: 'data/vd6_phuong_vi_ta.png',
+            desc: 'VD6: Ngắm mục tiêu, đo Phương vị và Độ tà.\n\nĐỘNG TÁC:\n1. Đưa vòng ngắm vào điểm đo, giữ máy chắc chắn.\n2. Nhấn nhả và nhấn giữ phím Phương vị.\n3. Nhả núm; đọc PV (trái) và Độ tà (phải).\n\nKẾT QUẢ: Am = 29-41; ε = + 0-51'
+        },
+        'do-pv-cl-2-muc-tieu': {
+            title: 'c) Đo PV & CL giữa 2 mục tiêu',
+            img: 'data/vd7_pv_cl.png',
+            desc: 'VD7: VC1 Nhà vàng; VC2 Nhà cao tầng, đo PV và CL.\n\nĐỘNG TÁC:\n1. Ngắm VC1, nhấn giữ phím Phương vị.\n2. Ấn nhả phím Cự ly (hiện "1-P").\n3. Ngắm VC2, nhả núm Phương vị và đọc kết quả.\n\nKẾT QUẢ: Am = 48-20; D = 420m'
+        },
+        'do-huong-kep': {
+            title: 'd) Đo góc hướng & Góc kẹp',
+            img: 'data/vd8_huong_kep.png',
+            desc: 'VD8: Xác định góc hướng và góc kẹp giữa 2 mục tiêu.\n\nĐỘNG TÁC:\n1. Ngắm VC1, nhấn nhả và nhấn giữ phím Phương vị.\n2. Ấn nhả phím Cự ly (hiện "1-P" bên trái).\n3. Ngắm VC2, nhả núm Phương vị và đọc kết quả.\n\nKẾT QUẢ: β = 4-20; φ = 1-18'
+        }
+    };
+    if (measureData[type]) {
+        title.innerText = measureData[type].title;
+        img.src = measureData[type].img;
+        desc.style.textAlign = "left";
+        desc.style.whiteSpace = "pre-line"; 
+        desc.innerText = measureData[type].desc; 
+        
+        modal.style.display = 'flex';
+        if(window.lucide) lucide.createIcons();
+    }
+}
+function closeMeasureModal() {
+    document.getElementById('measure-modal').style.display = 'none';
+}
+function openStructureModal(type) {
+    const modal = document.getElementById('structure-modal');
+    const content = document.getElementById('modal-content-area');
+    modal.style.display = 'flex';
+    if (type === 'quang-hoc') {
+        content.innerHTML = `
+            <div style="flex: 1.2; background: #fff; display: flex; align-items: center; justify-content: center; padding: 40px; border-right: 1px solid #eee;">
+                <img src="data/quanghoc.png" style="max-width: 95%; filter: drop-shadow(0 10px 30px rgba(0,0,0,0.1));">
+            </div>
+            <div style="flex: 0.8; padding: 60px; background: #f8fafc; display: flex; flex-direction: column; justify-content: center;">
+                <h2 style="font-size: 32px; color: #15803d; font-weight: 900; margin-bottom: 30px; border-bottom: 4px solid #15803d; padding-bottom: 10px; display: inline-block;">HỆ THỐNG QUANG HỌC</h2>
+                <div style="background: white; padding: 30px; border-radius: 20px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+                    <ul style="font-size: 20px; line-height: 2; color: #334155; list-style-type: none; padding: 0;">
+                        <li style="margin-bottom: 10px;"><i data-lucide="check-circle" style="display: inline-block; vertical-align: middle; margin-right: 10px; color: #15803d;"></i> <strong>Kính vật:</strong> Thu nhận tia sáng và ảnh.</li>
+                        <li style="margin-bottom: 10px;"><i data-lucide="check-circle" style="display: inline-block; vertical-align: middle; margin-right: 10px; color: #15803d;"></i> <strong>Lăng kính đảo ảnh:</strong> Chuyển ảnh ngược thành thuận.</li>
+                        <li style="margin-bottom: 10px;"><i data-lucide="check-circle" style="display: inline-block; vertical-align: middle; margin-right: 10px; color: #15803d;"></i> <strong>Kính khắc vạch:</strong> Hệ vạch chuẩn đo đạc.</li>
+                        <li style="margin-bottom: 10px;"><i data-lucide="check-circle" style="display: inline-block; vertical-align: middle; margin-right: 10px; color: #15803d;"></i> <strong>Kính nhìn:</strong> Tùy chỉnh phù hợp mắt người đo.</li>
+                        <li style="margin-top: 25px; padding-top: 15px; border-top: 2px dashed #eee; color: #dc2626;"><i data-lucide="zap" style="display: inline-block; vertical-align: middle; margin-right: 10px;"></i> <strong>Đầu phát Laser IR:</strong> 1550nm (An toàn cho mắt).</li>
+                    </ul>
+                </div>
+            </div>`;
+    } else if (type === 'chan-may') {
+        content.innerHTML = `
+            <div style="flex: 1.2; background: #fff; display: flex; align-items: center; justify-content: center; padding: 40px; position: relative; border-right: 1px solid #eee;">
+                <img src="data/chanmay.png" style="max-width: 85%;">
+                <div class="hotspot" style="top: 35%; left: 58%;">1<div class="tooltip">Khóa hãm tà</div></div>
+                <div class="hotspot" style="top: 35%; left: 40%;">2<div class="tooltip">Ổ kết nối</div></div>
+                <div class="hotspot" style="top: 29%; left: 65%;">2<div class="tooltip">Ổ kết nối</div></div>
+                <div class="hotspot" style="top: 45%; left: 70%;">3<div class="tooltip">Lẫy hãm độ cao chân máy</div></div>
+                <div class="hotspot" style="top: 45%; left: 35%;">3<div class="tooltip">Lẫy hãm độ cao chân máy</div></div>
+                <div class="hotspot" style="top: 33%; left: 70%;">4<div class="tooltip">Khóa hãm hướng</div></div>
+            </div>
+            <div style="flex: 0.8; padding: 60px; background: #fffaf0; display: flex; flex-direction: column; justify-content: center;">
+                <h2 style="font-size: 32px; color: #dc2626; font-weight: 900; margin-bottom: 25px;">CHI TIẾT CHÂN MÁY</h2>
+                <div style="background: white; padding: 25px; border-radius: 15px; border-left: 6px solid #dc2626; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+                    <p style="font-size: 18px; color: #92400e; font-weight: 600; line-height: 1.6; margin: 0;">
+                        <i data-lucide="mouse-pointer-2" style="display: inline-block; vertical-align: middle; margin-right: 8px;"></i>
+                        Hướng dẫn: Đồng chí hãy rê chuột vào các vòng tròn số trên hình ảnh để xem tên gọi chi tiết của từng bộ phận.
+                    </p>
+                </div>
+            </div>`;
+    } else if (type === 'phu-tung') {
+        content.innerHTML = `
+            <div style="flex: 1.2; background: #fff; display: flex; align-items: center; justify-content: center; padding: 40px; border-right: 1px solid #eee;">
+                <img id="pt-img-detail" src="data/tuidung.png" style="max-width: 85%; transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);">
+            </div>
+            <div style="flex: 0.8; padding: 50px; background: #f0f9ff; display: flex; flex-direction: column; gap: 15px; justify-content: center;">
+                <h2 style="font-size: 32px; color: #0ea5e9; font-weight: 900; margin-bottom: 15px;">PHỤ TÙNG ĐỒNG BỘ</h2>
+                <div onclick="updateModalPt(1, this)" style="padding: 20px; background: #e0f2fe; border: 2px solid #0ea5e9; border-radius: 15px; cursor: pointer; font-weight: 800; display: flex; align-items: center; gap: 15px;"><span style="background: #0ea5e9; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">1</span> Túi đựng (Hộp nhựa cứng)</div>
+                <div onclick="updateModalPt(2, this)" style="padding: 20px; background: #fff; border: 1px solid #ddd; border-radius: 15px; cursor: pointer; font-weight: 700; display: flex; align-items: center; gap: 15px;"><span style="background: #94a3b8; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">2</span> Pin nguồn chuyên dụng</div>
+                <div onclick="updateModalPt(3, this)" style="padding: 20px; background: #fff; border: 1px solid #ddd; border-radius: 15px; cursor: pointer; font-weight: 700; display: flex; align-items: center; gap: 15px;"><span style="background: #94a3b8; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">3</span> Cáp truyền dữ liệu</div>
+                <div onclick="updateModalPt(4, this)" style="padding: 20px; background: #fff; border: 1px solid #ddd; border-radius: 15px; cursor: pointer; font-weight: 700; display: flex; align-items: center; gap: 15px;"><span style="background: #94a3b8; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">4</span> Sách hướng dẫn sử dụng</div>
+            </div>`;
+    }
+    lucide.createIcons();
+}
+function updateModalPt(idx, el) {
+    const imgElement = document.getElementById('pt-img-detail');
+    const ptImages = [
+        "data/tuidung.png",   
+        "data/pin.png", 
+        "data/cap.png", 
+        "data/sachhuongdan.png" 
+    ];
+    imgElement.style.opacity = '0';
+    imgElement.style.transform = 'scale(0.9)';
+    setTimeout(() => {
+        imgElement.src = ptImages[idx - 1]; 
+        imgElement.style.opacity = '1';
+        imgElement.style.transform = 'scale(1)';
+    }, 200);
+    const items = el.parentElement.querySelectorAll('div');
+    items.forEach(item => {
+        item.style.background = "#fff";
+        item.style.border = "1px solid #ddd";
+        item.style.fontWeight = "700";
+        const s = item.querySelector('span');
+        if(s) s.style.background = "#94a3b8";
+    });
+    el.style.background = "#e0f2fe";
+    el.style.border = "2px solid #0ea5e9";
+    el.style.fontWeight = "800";
+    const activeSpan = el.querySelector('span');
+    if(activeSpan) activeSpan.style.background = "#0ea5e9";
+}
+function closeStructureModal() { document.getElementById('structure-modal').style.display = 'none'; }
+const setupData = {
+    'config': {
+        title: 'CÀI ĐẶT CẤU HÌNH (Con FIG)',
+        img: 'data/vector_config.png', 
+        desc: 'ĐỘNG TÁC:\n1. Ấn nhả phím CỰ LY 5 lần liên tiếp (Hiện Con FIG).\n2. Ấn phím PHƯƠNG VỊ để chọn chế độ (3 dis, ErEt, niGt).\n3. Ấn nhả 5 lần phím CỰ LY để lưu cài đặt (Hiện chữ "Stor").'
+    },
+    'unit': {
+        title: 'CÀI ĐƠN VỊ ĐO (Unit Sett)',
+        img: 'data/vector_unit.png',
+        desc: 'ĐỘNG TÁC:\n1. Ấn nhả phím PHƯƠNG VỊ 5 lần liên tiếp (Hiện Unit Sett).\n2. Ấn phím CỰ LY để chọn đơn vị Ly giác (6000 hoặc 6400).\n3. Ấn nhả 5 lần phím PHƯƠNG VỊ để lưu cài đặt (Hiện chữ "Stor").'
+    },
+    'distgate': {
+        title: 'ĐẶT CỰ LY TỐI THIỂU (dist Gate)',
+        img: 'data/culitoithieu.png',
+        desc: 'ĐỘNG TÁC:\n1. Ấn nhả phím CỰ LY 5 lần liên tiếp (Hiện dist Gate).\n2. Ấn phím PHƯƠNG VỊ để chọn giá trị (từ 5m - 25.000m).\n3. Ấn nhả 5 lần phím CỰ LY để lưu (Stor).\n\nLƯU Ý: Dùng để loại bỏ các vật cản gần (cành cây, lưới thép) khi đo mục tiêu tầm xa.'
+    }
+};
+function openSetupModal(type) {
+    const modal = document.getElementById('setup-modal');
+    const content = document.getElementById('setup-modal-content');
+    if (modal && setupData[type]) {
+        const data = setupData[type];
+        modal.style.display = 'flex';
+        
+        content.innerHTML = `
+            <div style="flex: 1.2; background: #0f172a; display: flex; align-items: center; justify-content: center; padding: 20px;">
+                <img src="${data.img}" style="max-width: 100%; max-height: 80vh; object-fit: contain; border-radius: 10px;" 
+                     onerror="this.parentElement.innerHTML='<div style=\"color: #00ff00; font-family: monospace; font-size: 50px; text-align: center; border: 2px solid #334155; padding: 40px; border-radius: 10px; background: #000;\">${type === 'distgate' ? 'dist Gate' : (type === 'config' ? 'Con FIG' : 'Unit Sett')}<div style=\"font-size: 14px; color: #64748b; margin-top: 20px; font-family: sans-serif;\"></div></div>'">
+            </div>
+            <div style="flex: 0.8; padding: 50px; display: flex; flex-direction: column; justify-content: center; background: #fff; text-align: left;">
+                <h2 style="font-size: 28px; color: #15803d; font-weight: 900; margin-bottom: 25px; text-transform: uppercase;">${data.title}</h2>
+                <div style="white-space: pre-line; font-size: 18px; color: #334155; line-height: 1.8; font-weight: 500;">
+                    ${data.desc}
+                </div>
+            </div>`;
+        
+        if(window.lucide) lucide.createIcons();
+    }
+}
+function closeSetupModal() {
+    const modal = document.getElementById('setup-modal');
+    if(modal) modal.style.display = 'none';
+}
+function showProc(type, el) {
+    stopAndHideVideo(); 
+    const img = document.getElementById('proc-img');
+    const txt = document.getElementById('proc-text');
+    document.querySelectorAll('.proc-item, .sub-btn').forEach(node => {
+        node.classList.remove('active', 'active-sub');
+        if(node.classList.contains('proc-item')) { node.style.borderLeftColor = '#64748b'; node.style.background = '#f8fafc'; }
+    });
+    if(el.classList.contains('sub-btn')) el.classList.add('active-sub');
+    else { el.classList.add('active'); el.style.borderLeftColor = '#15803d'; el.style.background = '#f1f5f9'; }
+    const procData = {
+        'tu-the': { img: 'data/dubo.png', text: 'TƯ THẾ: Sử dụng trên giá 3 chân hoặc cầm tay.' },
+        'lap-b1': { img: 'data/lap_may_b1.png', text: 'BƯỚC 1: Đeo máy sẵn sàng (như đeo PHB).' },
+        'lap-b2': { img: 'data/lap_may_b2.png', text: 'BƯỚC 2: Triển khai lắp chân máy ở tư thế quỳ bắn.' },
+        'lap-pin': { img: 'data/lap_may_pin.png', text: 'BƯỚC 3: Ngửa máy trên đùi trái, lắp pin đúng cực.' },
+        'lap-than': { img: 'data/lap_may_than.png', text: 'BƯỚC 4: Tay phải cầm máy, tay trái đóng cần liên kết.' },
+        'thu-may': { img: 'data/thu_may.png', text: 'THU MÁY: Thực hiện ngược lại quy trình lắp máy.' }
+    };
+    img.style.opacity = '0';
+    setTimeout(() => {
+        img.src = procData[type].img;
+        txt.innerText = procData[type].text;
+        img.style.opacity = '1';
+    }, 150);
+}
+function showVideo(el) {
+    document.querySelectorAll('.proc-item, .sub-btn').forEach(node => node.classList.remove('active', 'active-sub'));
+    el.style.background = '#fff7ed';
+    document.getElementById('proc-display').style.display = 'none';
+    const videoCont = document.getElementById('video-container');
+    const video = document.getElementById('guide-video');
+    videoCont.style.display = 'flex';
+    video.play(); // Auto play khi mở
+    lucide.createIcons();
+}
+function stopAndHideVideo() {
+    const video = document.getElementById('guide-video');
+    const videoCont = document.getElementById('video-container');
+    const procDisplay = document.getElementById('proc-display');
+    if(video) {
+        video.pause();
+        video.currentTime = 0; 
+    }
+    if(videoCont) videoCont.style.display = 'none';
+    if(procDisplay) procDisplay.style.display = 'flex';
+}
+function closeVideo() {
+    stopAndHideVideo();
+    // Quay lại mục đầu tiên
+    showProc('tu-the', document.querySelector('.proc-item'));
+}
+function startLesson() {
+    // 1. Kích hoạt audio đầu tiên
+    if (audioFiles.slides[1]) {
+        currentAudio.src = audioFiles.slides[1];
+        currentAudio.play().then(() => {
+            // Cập nhật giao diện loa
+            const mainIcon = document.getElementById('tts-icon');
+            const mainBtn = document.getElementById('tts-toggle-btn');
+            if(mainIcon) mainIcon.setAttribute('data-lucide', 'volume-2');
+            if(mainBtn) {
+                mainBtn.classList.add('audio-active');
+                mainBtn.style.border = "3px solid var(--accent-primary)";
+            }
+            lucide.createIcons();
+        }).catch(err => console.log("Chờ tương tác..."));
+    }
+
+    // 2. Tự động chuyển sang slide tiếp theo (Slide số 1 thật)
+    nextAction();
 }
 </script>
 </body>
